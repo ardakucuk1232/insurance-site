@@ -1,0 +1,1 @@
+Urun karti gorselleri buraya. Dosya adlari ve boyutlar icin ust klasordeki OKUBENI.txt dosyasina bak.
