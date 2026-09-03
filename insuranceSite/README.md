@@ -62,7 +62,3 @@ Bu aracı yazma sebebim, müşteriye "fotoğrafları squoosh.app'e sürükle, We
 ## Eksikler
 
 WordPress teması hiç yazılmadı, proje o aşamaya gelmeden bitti. Yorumlar bölümündeki metinler uydurma ve arayüzde "örnek" diye işaretli. Yasal metinler taslak, avukat görmedi. `gorseller/` klasörü boş — site fotoğrafsız da bozulmuyor, yer tutucular görünüyor.
-
-## Lisans
-
-MIT.
