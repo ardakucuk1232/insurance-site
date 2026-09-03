@@ -1,0 +1,14 @@
+node_modules/
+package-lock.json
+package.json
+.DS_Store
+Thumbs.db
+*.zip
+gorseller/*.jpg
+gorseller/*.jpeg
+gorseller/*.png
+gorseller/*.webp
+gorseller/urun/*.jpg
+gorseller/urun/*.jpeg
+gorseller/urun/*.png
+gorseller/urun/*.webp

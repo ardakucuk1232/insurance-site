@@ -1,0 +1,2432 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Örnek Sigorta Ankara | Çankaya Sigorta Acentesi — Trafik, Kasko, DASK, Sağlık</title>
+<meta name="description" content="Örnek Sigorta Ankara, Çankaya'da 7 yıldır hizmet veren sigorta acentesi. 57 anlaşmalı şirket arasından trafik, kasko, DASK, konut, tamamlayıcı sağlık ve işyeri sigortası tekliflerini karşılaştırıyoruz. Ücretsiz teklif alın.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0B111E" id="metaTheme">
+<script>
+
+(function(){try{
+  var t = localStorage.getItem("osa_theme");
+  document.documentElement.setAttribute("data-theme", t === "light" ? "light" : "dark");
+}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+
+:root{
+  --brand:#F6C544;
+  --brand-2:#FFD35C;
+  --gold-ink:#0C1220;
+
+  --bg:#0B111E;
+  --bg-2:#0E1524;
+  --card:#131B2D;
+  --card-2:#1A2338;
+  --line:#233047;
+  --line-2:#1B2438;
+  --ink:#EEF1F8;
+  --ink-2:#CBD3E4;
+  --muted:#9AA5BD;
+  --muted-2:#8792AC;
+  --tint:rgba(246,197,68,.10);
+  --tint-line:rgba(246,197,68,.30);
+
+  --wa:#25D366;
+  --wa-2:#1FAF52;
+  --err:#FF8585;
+  --ok:#57D98A;
+
+  --r-sm:6px; --r:10px; --r-lg:14px; --r-xl:18px; --r-full:999px;
+  --sp:clamp(16px,4vw,28px);
+  --wrap:1220px;
+
+  --sh-1:0 1px 2px rgba(2,6,14,.4),0 2px 10px rgba(2,6,14,.35);
+  --sh-2:0 4px 14px rgba(2,6,14,.45),0 18px 44px rgba(2,6,14,.45);
+  --sh-3:0 12px 34px rgba(2,6,14,.55),0 44px 96px rgba(2,6,14,.6);
+
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --sans:'Manrope',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+
+  --fs-h1:clamp(2.4rem,1.4rem + 4vw,4.3rem);
+  --fs-h2:clamp(1.8rem,1.25rem + 2.2vw,2.85rem);
+  --fs-h3:clamp(1.08rem,1rem + .4vw,1.24rem);
+  --fs-lead:clamp(1rem,.96rem + .35vw,1.18rem);
+
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+
+[data-theme="light"]{
+  --brand:#E9B41F;
+  --gold-ink:#141A28;
+  --bg:#FDFCFA;
+  --bg-2:#F4F3EF;
+  --card:#FFFFFF;
+  --card-2:#F6F5F1;
+  --line:#E4E2DB;
+  --line-2:#EEEDE7;
+  --ink:#141A28;
+  --ink-2:#2C3547;
+  --muted:#5C6577;
+  --muted-2:#6E7789;
+  --tint:rgba(233,180,31,.13);
+  --tint-line:rgba(180,134,0,.35);
+  --err:#C62828;
+  --ok:#1B7F3B;
+  --sh-1:0 1px 2px rgba(20,26,40,.05),0 2px 8px rgba(20,26,40,.05);
+  --sh-2:0 3px 10px rgba(20,26,40,.07),0 16px 36px rgba(20,26,40,.09);
+  --sh-3:0 12px 28px rgba(20,26,40,.11),0 40px 80px rgba(20,26,40,.13);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:92px}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.7;font-weight:400;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden;
+}
+img,svg,video{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2{font-family:var(--serif);font-weight:600;margin:0;line-height:1.12;letter-spacing:-.01em;overflow-wrap:break-word}
+h3,h4{font-family:var(--sans);font-weight:700;margin:0;line-height:1.25;letter-spacing:-.015em;overflow-wrap:break-word}
+h1{font-size:var(--fs-h1)}
+h2{font-size:var(--fs-h2)}
+h3{font-size:var(--fs-h3)}
+p{margin:0;overflow-wrap:break-word}
+ul{margin:0;padding:0;list-style:none}
+::selection{background:var(--brand);color:var(--gold-ink)}
+
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:var(--sp)}
+.section{padding-block:clamp(64px,8vw,128px);position:relative}
+.section--alt{background:var(--bg-2)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;left:-999px;top:8px;z-index:999;background:var(--brand);color:var(--gold-ink);padding:10px 16px;border-radius:var(--r-sm);font-weight:700}
+.skip:focus{left:8px}
+:focus-visible{outline:2.5px solid var(--brand);outline-offset:3px;border-radius:3px}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:14px;
+  font-size:.72rem;font-weight:700;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--brand);background:none;border:0;padding:0;border-radius:0;
+}
+[data-theme="light"] .eyebrow{color:#8A6709}
+.eyebrow::before{content:"";width:36px;height:1px;background:var(--tint-line);border-radius:0}
+.sec-head--center .eyebrow::after{content:"";width:36px;height:1px;background:var(--tint-line)}
+.sec-head{max-width:720px;margin-bottom:clamp(38px,4.5vw,64px)}
+.sec-head--center{margin-inline:auto;text-align:center}
+.sec-head h2{margin-top:20px}
+.sec-head p{margin-top:18px;color:var(--muted);font-size:var(--fs-lead);line-height:1.75}
+
+.btn{
+  --bg-b:var(--brand);--fg-b:var(--gold-ink);--bd:var(--brand);
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--bg-b);color:var(--fg-b);border:1px solid var(--bd);
+  font-weight:700;font-size:.95rem;letter-spacing:.02em;
+  padding:15px 28px;border-radius:var(--r);cursor:pointer;white-space:nowrap;
+  transition:transform .16s var(--ease),box-shadow .16s var(--ease),background .16s,border-color .16s,color .16s;
+}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--sh-2)}
+.btn:active{transform:translateY(0)}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none}
+.btn--lg{padding:17px 34px;font-size:1rem}
+.btn--block{width:100%}
+.btn--ghost{--bg-b:transparent;--fg-b:var(--ink);--bd:var(--line)}
+.btn--ghost:hover{--bd:var(--brand);--fg-b:var(--brand)}
+[data-theme="light"] .btn--ghost:hover{--fg-b:var(--ink);--bd:var(--ink)}
+.btn--glass{--bg-b:rgba(255,255,255,.07);--fg-b:#fff;--bd:rgba(255,255,255,.32)}
+.btn--glass:hover{--bg-b:rgba(255,255,255,.13);--bd:#fff}
+.btn--wa{--bg-b:var(--wa);--fg-b:#07200F;--bd:var(--wa)}
+.btn--wa:hover{--bg-b:var(--wa-2);--bd:var(--wa-2)}
+.btn--dark{--bg-b:var(--ink);--fg-b:var(--bg);--bd:var(--ink)}
+.btn svg{width:18px;height:18px;flex:0 0 auto}
+.ico{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+
+.media{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(90% 70% at 76% 12%,rgba(246,197,68,.14),transparent 60%),
+    linear-gradient(152deg,#1B2740 0%,#121B30 46%,#0B1322 100%);
+}
+[data-theme="light"] .media{
+  background:
+    radial-gradient(90% 70% at 76% 12%,rgba(233,180,31,.22),transparent 60%),
+    linear-gradient(152deg,#EDEDE8 0%,#E3E3DC 46%,#D9DAD3 100%);
+}
+.media::after{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.4;
+  background-image:
+    linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);
+  background-size:52px 52px;
+}
+[data-theme="light"] .media::after{background-image:
+  linear-gradient(rgba(20,26,40,.05) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(20,26,40,.05) 1px,transparent 1px)}
+.media::before{
+  content:"S";position:absolute;right:-3%;bottom:-16%;z-index:1;pointer-events:none;
+  font-family:var(--serif);font-weight:600;
+  font-size:clamp(190px,36vw,460px);line-height:.78;letter-spacing:-.05em;
+  color:rgba(246,197,68,.06);
+}
+[data-theme="light"] .media::before{color:rgba(150,112,10,.09)}
+.media > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+.media__note{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;
+  text-align:center;color:var(--muted);font-size:.78rem;font-weight:600;line-height:1.55;
+  display:grid;justify-items:center;gap:10px;padding:16px 20px;max-width:28ch;
+  background:rgba(8,12,22,.5);border:1px solid rgba(255,255,255,.1);
+  border-radius:var(--r);backdrop-filter:blur(3px);
+}
+[data-theme="light"] .media__note{background:rgba(255,255,255,.72);border-color:rgba(20,26,40,.1)}
+.media__note b{color:var(--brand);font-weight:700}
+[data-theme="light"] .media__note b{color:#8A6709}
+.media__note svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:1.5;opacity:.7}
+.media.has-img .media__note{display:none}
+.media.has-img::after,.media.has-img::before{display:none}
+
+.header{
+  position:fixed;top:0;left:0;right:0;z-index:90;
+  border-bottom:1px solid transparent;
+  transition:background .28s var(--ease),border-color .28s,backdrop-filter .28s;
+}
+.header.is-stuck{
+  background:rgba(11,17,30,.86);
+  backdrop-filter:saturate(160%) blur(16px);-webkit-backdrop-filter:saturate(160%) blur(16px);
+  border-bottom-color:var(--line-2);
+}
+[data-theme="light"] .header.is-stuck{background:rgba(253,252,250,.88);border-bottom-color:var(--line)}
+.header__bar{display:flex;align-items:center;gap:18px;height:82px}
+.brand{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+.brand__mark{
+  width:42px;height:42px;border-radius:10px;background:var(--brand);color:var(--gold-ink);
+  display:grid;place-items:center;font-family:var(--serif);font-weight:600;font-size:1.35rem;flex:0 0 auto;
+}
+.brand__txt{display:flex;flex-direction:column;line-height:1.08}
+.brand__name{font-family:var(--serif);font-weight:600;font-size:1.12rem;letter-spacing:.005em;color:#fff}
+[data-theme="light"] .header.is-stuck .brand__name{color:var(--ink)}
+.brand__sub{font-size:.62rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--brand);margin-top:2px}
+[data-theme="light"] .header.is-stuck .brand__sub{color:#8A6709}
+.nav{display:flex;align-items:center;gap:2px;margin-left:auto}
+.nav a{
+  padding:10px 10px;font-size:.86rem;font-weight:600;letter-spacing:.03em;
+  color:rgba(255,255,255,.78);white-space:nowrap;position:relative;transition:color .15s;
+}
+[data-theme="light"] .header.is-stuck .nav a{color:var(--ink-2)}
+.nav a:hover,.nav a.is-active{color:var(--brand)}
+[data-theme="light"] .header.is-stuck .nav a:hover,[data-theme="light"] .header.is-stuck .nav a.is-active{color:var(--ink)}
+.nav a.is-active::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:1.5px;background:var(--brand)}
+.header__actions{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.theme-btn{
+  width:42px;height:42px;border-radius:var(--r);border:1px solid rgba(255,255,255,.22);
+  background:rgba(255,255,255,.05);cursor:pointer;display:grid;place-items:center;
+  color:#fff;flex:0 0 auto;transition:border-color .18s,color .18s,transform .18s var(--ease);
+}
+[data-theme="light"] .header.is-stuck .theme-btn{border-color:var(--line);background:var(--card);color:var(--ink-2)}
+.theme-btn:hover{transform:rotate(14deg);border-color:var(--brand);color:var(--brand)}
+.theme-btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.theme-btn .i-sun{display:none}
+[data-theme="light"] .theme-btn .i-sun{display:block}
+[data-theme="light"] .theme-btn .i-moon{display:none}
+.lang{display:flex;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.05);border-radius:var(--r);padding:3px}
+[data-theme="light"] .header.is-stuck .lang{border-color:var(--line);background:var(--card-2)}
+.lang button{
+  border:0;background:transparent;font-size:.76rem;font-weight:700;letter-spacing:.06em;
+  padding:6px 11px;border-radius:calc(var(--r) - 3px);cursor:pointer;color:rgba(255,255,255,.6);
+}
+[data-theme="light"] .header.is-stuck .lang button{color:var(--muted)}
+.lang button.is-on{background:var(--brand);color:var(--gold-ink)}
+.tel-link{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.92rem;letter-spacing:.02em;padding:10px 13px;color:#fff;transition:color .15s}
+[data-theme="light"] .header.is-stuck .tel-link{color:var(--ink)}
+.tel-link:hover{color:var(--brand)}
+.tel-link svg{width:16px;height:16px;color:var(--brand)}
+.burger{display:none;width:42px;height:42px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.05);border-radius:var(--r);cursor:pointer;align-items:center;justify-content:center}
+[data-theme="light"] .header.is-stuck .burger{border-color:var(--line);background:var(--card)}
+.burger span{display:block;width:18px;height:2px;background:#fff;border-radius:2px;position:relative;transition:background .22s}
+[data-theme="light"] .header.is-stuck .burger span{background:var(--ink)}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:18px;height:2px;background:inherit;border-radius:2px;transition:transform .24s var(--ease),top .24s var(--ease)}
+.burger span::before{top:-6px}.burger span::after{top:6px}
+.burger[aria-expanded="true"] span{background:transparent}
+.burger[aria-expanded="true"] span::before{top:0;transform:rotate(45deg);background:var(--brand)}
+.burger[aria-expanded="true"] span::after{top:0;transform:rotate(-45deg);background:var(--brand)}
+.mobile-nav{display:none;background:var(--bg);border-top:1px solid var(--line-2);padding:14px var(--sp) 26px;max-height:calc(100vh - 76px);overflow-y:auto}
+.mobile-nav.is-open{display:block}
+.mobile-nav > a{display:block;padding:15px 4px;font-weight:600;border-bottom:1px solid var(--line-2)}
+.mobile-nav .m-foot{display:flex;gap:10px;margin-top:20px}
+.m-lang-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px 4px 14px}
+.m-lang-lbl{font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.mobile-nav .lang{display:flex;flex:0 0 auto}
+.mobile-nav .lang button{padding:11px 22px;font-size:.86rem;min-height:44px}
+[data-theme="light"] .mobile-nav .lang{border-color:var(--line);background:var(--card-2)}
+[data-theme="light"] .mobile-nav .lang button{color:var(--muted)}
+[data-theme="light"] .mobile-nav .lang button.is-on{color:var(--gold-ink)}
+[data-theme="light"] .mobile-nav > a{color:var(--ink)}
+.mobile-nav .m-foot > *{flex:1}
+
+.hero{
+  position:relative;min-height:min(100vh,900px);
+  display:flex;align-items:center;justify-content:center;
+  padding-block:150px 110px;overflow:hidden;text-align:center;
+}
+.hero__bg{position:absolute;inset:0;z-index:0}
+.hero__bg .media{position:absolute;inset:0}
+.hero__scrim{
+  position:absolute;inset:0;z-index:2;
+  background:
+    linear-gradient(180deg,rgba(7,11,20,.88) 0%,rgba(7,11,20,.55) 30%,rgba(7,11,20,.45) 55%,rgba(7,11,20,.92) 100%),
+    radial-gradient(110% 70% at 50% 42%,transparent 40%,rgba(7,11,20,.5) 100%);
+}
+.hero__inner{position:relative;z-index:3;max-width:900px;margin-inline:auto}
+.hero__welcome{
+  display:inline-flex;align-items:center;gap:16px;
+  font-size:.74rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;color:var(--brand-2);
+}
+.hero__welcome::before,.hero__welcome::after{content:"";width:44px;height:1px;background:rgba(246,197,68,.45)}
+.hero__title{margin-top:26px;color:#fff}
+.hero__title em{font-style:italic;font-weight:500;color:var(--brand-2)}
+.hero__lead{
+  margin-top:24px;font-size:var(--fs-lead);color:rgba(255,255,255,.82);
+  max-width:60ch;margin-inline:auto;line-height:1.8;
+}
+.hero__cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px;justify-content:center}
+.hero__scroll{
+  position:absolute;left:50%;bottom:26px;transform:translateX(-50%);z-index:3;
+  display:grid;justify-items:center;gap:8px;color:rgba(255,255,255,.55);
+  font-size:.68rem;font-weight:700;letter-spacing:.26em;text-transform:uppercase;
+  padding:14px 16px;min-height:44px;
+}
+.hero__scroll:hover{color:var(--brand-2)}
+.hero__scroll svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;animation:dip 2.4s var(--ease) infinite}
+@keyframes dip{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+
+[data-theme="light"] .hero__bg .media{
+  background:
+    radial-gradient(90% 70% at 76% 12%,rgba(246,197,68,.14),transparent 60%),
+    linear-gradient(152deg,#1B2740 0%,#121B30 46%,#0B1322 100%);
+}
+[data-theme="light"] .hero__bg .media::after{background-image:
+  linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px)}
+[data-theme="light"] .hero__bg .media::before{color:rgba(246,197,68,.06)}
+
+.trust{border-bottom:1px solid var(--line-2);background:var(--bg)}
+.trust__grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.trust__item{padding:clamp(30px,3.6vw,46px) clamp(14px,2vw,26px);text-align:center;border-right:1px solid var(--line-2)}
+.trust__item:last-child{border-right:0}
+.trust__num{
+  font-family:var(--serif);font-weight:600;
+  font-size:clamp(2rem,1.4rem + 2.2vw,3.1rem);letter-spacing:-.01em;color:var(--brand);line-height:1.05;
+}
+[data-theme="light"] .trust__num{color:#A87A00}
+.trust__lbl{font-size:.8rem;color:var(--muted);margin-top:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+
+.quote-split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,5vw,84px);align-items:center}
+.quote-split>*{min-width:0}
+.quote-side h2{margin-top:20px}
+.quote-side>p{margin-top:18px;color:var(--muted);font-size:var(--fs-lead);line-height:1.75}
+.hero__points{display:grid;gap:14px;margin-top:30px}
+.hero__points li{display:flex;align-items:center;gap:12px;font-weight:600;font-size:.95rem;color:var(--ink-2)}
+.hero__points svg{width:20px;height:20px;color:var(--brand);flex:0 0 auto}
+[data-theme="light"] .hero__points svg{color:#8A6709}
+.quote-side__tel{
+  display:inline-flex;align-items:center;gap:12px;margin-top:30px;padding-top:26px;
+  border-top:1px solid var(--line-2);font-size:.9rem;color:var(--muted);
+}
+.quote-side__tel a{font-family:var(--serif);font-weight:600;font-size:1.3rem;color:var(--ink);letter-spacing:.01em;display:inline-flex;align-items:center;min-height:44px;padding:2px 6px;margin:-2px -6px}
+.quote-side__tel a:hover{color:var(--brand)}
+
+.quote-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-xl);
+  box-shadow:var(--sh-3);padding:clamp(26px,3vw,38px);position:relative;overflow:hidden;
+}
+.quote-card::before{
+  content:"";position:absolute;left:0;right:0;top:0;height:3px;
+  background:linear-gradient(90deg,var(--brand),rgba(246,197,68,.15));
+}
+.quote-card__head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:24px;min-width:0}
+.quote-card__head h2{font-size:clamp(1.35rem,1.2rem + .6vw,1.7rem);overflow-wrap:anywhere}
+.quote-card__head p{font-size:.89rem;color:var(--muted);margin-top:7px}
+.badge-free{
+  font-size:.66rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--tint);color:var(--brand);border:1px solid var(--tint-line);
+  padding:7px 12px;border-radius:var(--r-sm);flex:0 0 auto;
+}
+[data-theme="light"] .badge-free{color:#8A6709}
+
+.field{margin-bottom:15px}
+.field label{display:block;font-size:.76rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.field input,.field select,.field textarea{
+  width:100%;min-width:0;max-width:100%;padding:14px 16px;
+  border:1px solid var(--line);border-radius:var(--r);
+  background:var(--card-2);font-size:.96rem;transition:border-color .15s,box-shadow .15s;
+}
+[data-theme="dark"] .field input,[data-theme="dark"] .field select,[data-theme="dark"] .field textarea{background:rgba(255,255,255,.035)}
+.field textarea{resize:vertical;min-height:84px}
+.field select{appearance:none;background-repeat:no-repeat;background-position:right 15px center;padding-right:44px;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%239AA5BD' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 6l4 4 4-4'/></svg>")}
+[data-theme="light"] .field select{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%235C6577' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M4 6l4 4 4-4'/></svg>")}
+.field input:focus,.field select:focus,.field textarea:focus{outline:0;border-color:var(--brand);box-shadow:0 0 0 3px rgba(246,197,68,.18)}
+.field input::placeholder,.field textarea::placeholder{color:var(--muted-2);opacity:.7}
+.field.has-error input,.field.has-error select{border-color:var(--err);box-shadow:0 0 0 3px rgba(255,133,133,.13)}
+.field .err{display:none;font-size:.79rem;color:var(--err);margin-top:6px;font-weight:600;text-transform:none;letter-spacing:0}
+.field.has-error .err{display:block}
+.row-2{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.row-2>*{min-width:0}
+.consent{display:flex;gap:11px;align-items:flex-start;margin:16px 0;font-size:.83rem;color:var(--muted);line-height:1.55;padding:4px 0}
+.consent input{width:21px;height:21px;flex:0 0 auto;accent-color:var(--brand);cursor:pointer}
+.consent a{font-weight:700;color:var(--ink);text-decoration:underline;text-underline-offset:2px}
+.consent.has-error{color:var(--err)}
+.form-note{font-size:.78rem;color:var(--muted-2);text-align:center;margin-top:14px;line-height:1.55}
+.form-ok{display:none;background:rgba(87,217,138,.1);border:1px solid rgba(87,217,138,.32);color:var(--ok);border-radius:var(--r);padding:13px 15px;font-size:.87rem;font-weight:600;margin-top:14px}
+.form-ok.is-on{display:block}
+
+.prod-group{margin-bottom:clamp(42px,4.6vw,66px)}
+.prod-group:last-child{margin-bottom:0}
+.prod-group__head{display:flex;align-items:center;gap:16px;margin-bottom:26px}
+.prod-group__head h3{font-family:var(--serif);font-weight:600;font-size:1.35rem;white-space:nowrap;overflow-wrap:anywhere}
+.prod-group__head::after{content:"";flex:1;height:1px;background:var(--line-2)}
+.prod-group__ico{width:40px;height:40px;border-radius:var(--r);background:var(--tint);border:1px solid var(--tint-line);display:grid;place-items:center;color:var(--brand);flex:0 0 auto}
+[data-theme="light"] .prod-group__ico{color:#8A6709}
+.prod-group__ico .ico{width:20px;height:20px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.cards--feature{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{
+  position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);
+  padding:28px;display:flex;flex-direction:column;overflow:hidden;
+  transition:border-color .2s var(--ease),box-shadow .2s var(--ease),transform .2s var(--ease);
+}
+.card:hover{border-color:var(--tint-line);box-shadow:var(--sh-2);transform:translateY(-3px)}
+.card__ico{
+  width:44px;height:44px;border-radius:var(--r);background:var(--tint);color:var(--brand);
+  display:grid;place-items:center;margin-bottom:18px;transition:background .2s,color .2s;
+}
+[data-theme="light"] .card__ico{color:#8A6709}
+.card:hover .card__ico{background:var(--brand);color:var(--gold-ink)}
+.card h4{font-size:1.05rem;font-weight:700;letter-spacing:-.015em}
+.card p{margin-top:10px;font-size:.89rem;color:var(--muted);line-height:1.68;flex:1}
+.card__cta{
+  margin-top:16px;display:inline-flex;align-items:center;gap:10px;align-self:flex-start;
+  font-size:.74rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--brand);
+  border:0;background:transparent;cursor:pointer;padding:12px 0;min-height:44px;
+}
+[data-theme="light"] .card__cta{color:#8A6709}
+.card__cta svg{width:14px;height:14px;transition:transform .2s var(--ease)}
+.card:hover .card__cta svg{transform:translateX(4px)}
+.card__cta::before{content:"";position:absolute;inset:0}
+.prod-note{
+  margin-top:clamp(36px,3.8vw,52px);background:var(--tint);border:1px solid var(--tint-line);
+  border-radius:var(--r-lg);padding:24px 28px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+}
+.prod-note p{font-size:.95rem;font-weight:600;flex:1;min-width:240px}
+
+.bento{
+  display:grid;grid-template-columns:1.12fr 1fr 1fr;
+  grid-template-rows:repeat(2,minmax(268px,1fr));gap:16px;
+  margin-bottom:clamp(48px,5.4vw,80px);
+}
+.bento>*{min-width:0}
+.bcard{
+  position:relative;overflow:hidden;border-radius:var(--r-xl);
+  border:1px solid var(--line);background:var(--card);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  min-height:270px;isolation:isolate;
+  transition:border-color .25s var(--ease),box-shadow .25s var(--ease),transform .25s var(--ease);
+}
+.bcard--lead{grid-row:span 2}
+.bcard:hover{border-color:var(--tint-line);box-shadow:var(--sh-3);transform:translateY(-3px)}
+.bcard__media{position:absolute;inset:0;z-index:0;overflow:hidden}
+.bcard__media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.bcard:hover .bcard__media img{transform:scale(1.05)}
+.bcard__art{
+  position:absolute;right:-9%;top:2%;width:56%;height:auto;z-index:1;
+  stroke:var(--brand);fill:none;stroke-width:1.1;opacity:.15;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none;
+}
+.bcard--lead .bcard__art{width:46%;right:-5%;top:9%;opacity:.18}
+.bcard.has-img .bcard__art{display:none}
+.bcard.has-img .bcard__media::before{display:none}
+.bcard__media::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(85% 70% at 74% 16%,rgba(246,197,68,.16),transparent 62%),
+             linear-gradient(150deg,#22304C 0%,#15203A 50%,#0B1322 100%);
+}
+.bcard:nth-child(2) .bcard__media::before{
+  background:radial-gradient(85% 70% at 74% 16%,rgba(120,160,235,.18),transparent 62%),
+             linear-gradient(150deg,#1D2B44 0%,#131D33 50%,#0A111F 100%);
+}
+.bcard:nth-child(3) .bcard__media::before{
+  background:radial-gradient(85% 70% at 74% 16%,rgba(255,168,90,.15),transparent 62%),
+             linear-gradient(150deg,#2A2B3C 0%,#1A1D2E 50%,#0D0F1C 100%);
+}
+.bcard:nth-child(4) .bcard__media::before{
+  background:radial-gradient(85% 70% at 74% 16%,rgba(110,215,190,.14),transparent 62%),
+             linear-gradient(150deg,#1B2E3E 0%,#122031 50%,#0A1220 100%);
+}
+.bcard:nth-child(5) .bcard__media::before{
+  background:radial-gradient(85% 70% at 74% 16%,rgba(215,130,180,.14),transparent 62%),
+             linear-gradient(150deg,#282740 0%,#181A30 50%,#0C0E1D 100%);
+}
+.bcard__scrim{
+  position:absolute;inset:0;z-index:2;
+  background:linear-gradient(180deg,rgba(5,8,15,.34) 0%,rgba(5,8,15,.06) 30%,rgba(5,8,15,.8) 68%,rgba(5,8,15,.96) 100%);
+}
+.bcard--lead .bcard__scrim{
+  background:linear-gradient(180deg,rgba(5,8,15,.38) 0%,rgba(5,8,15,.05) 26%,rgba(5,8,15,.78) 62%,rgba(5,8,15,.97) 100%);
+}
+.bcard__n{
+  position:absolute;top:18px;left:18px;z-index:4;
+  width:40px;height:40px;border-radius:var(--r);
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.24);
+  backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  display:grid;place-items:center;color:#fff;
+  font-family:var(--serif);font-size:.9rem;font-weight:600;
+}
+.bcard__body{position:relative;z-index:3;padding:74px 26px 26px}
+.bcard--lead .bcard__body{padding:80px 32px 32px}
+.bcard__body h3{color:#fff;font-size:1.18rem}
+.bcard--lead .bcard__body h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,1.1rem + 1.2vw,2.1rem);letter-spacing:0}
+.bcard__body p{color:rgba(255,255,255,.8);font-size:.87rem;line-height:1.62;margin-top:9px;max-width:44ch}
+.bcard--lead .bcard__body p{font-size:.94rem;max-width:38ch}
+.bcard__cta{
+  margin-top:16px;display:inline-flex;align-items:center;gap:11px;
+  background:transparent;border:0;padding:12px 0;min-height:44px;cursor:pointer;
+  font-size:.74rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#fff;
+}
+.bcard__cta::after{content:"";width:26px;height:2px;background:var(--brand);transition:width .25s var(--ease)}
+.bcard:hover .bcard__cta::after{width:44px}
+.bcard__cta::before{content:"";position:absolute;inset:0;z-index:5}
+.bcard__cta:focus-visible{outline:2.5px solid var(--brand);outline-offset:4px}
+.prod-all-head{
+  display:flex;align-items:center;gap:16px;margin-bottom:28px;
+  font-size:.74rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--muted-2);
+}
+.prod-all-head::after{content:"";flex:1;height:1px;background:var(--line-2)}
+
+.card__media{
+  display:none;position:relative;height:172px;margin:-28px -28px 20px;
+  overflow:hidden;border-bottom:1px solid var(--line);
+  border-radius:calc(var(--r-lg) - 1px) calc(var(--r-lg) - 1px) 0 0;
+}
+.card__media img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease)}
+.card:hover .card__media img{transform:scale(1.05)}
+.card__media::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,transparent 62%,rgba(5,8,15,.34) 100%);
+}
+[data-theme="light"] .card__media::after{background:linear-gradient(180deg,transparent 70%,rgba(20,26,40,.12) 100%)}
+.card.has-img .card__media{display:block}
+.card.has-img .card__ico{display:none}
+@media (max-width:700px){.card__media{height:150px;margin:-28px -28px 18px}}
+
+.why-split{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(32px,4.5vw,72px);align-items:center}
+.why-split>*{min-width:0}
+.why-media{border-radius:var(--r-xl);aspect-ratio:4/5;min-height:560px}
+.why-list{display:grid;gap:12px;margin-top:6px}
+.why__item{padding:22px 24px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);display:flex;gap:18px;align-items:flex-start;transition:border-color .2s}
+.why__item:hover{border-color:var(--tint-line)}
+.why__n{
+  flex:0 0 auto;font-family:var(--serif);font-weight:600;font-size:1.1rem;color:var(--brand);
+  width:auto;height:auto;background:none;border-radius:0;display:block;padding-top:2px;
+}
+[data-theme="light"] .why__n{color:#8A6709}
+.why__item h3{font-size:1.02rem}
+.why__item p{margin-top:7px;font-size:.89rem;color:var(--muted);line-height:1.65}
+
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(22px,2.8vw,36px);position:relative}
+.steps::before{content:"";position:absolute;top:36px;left:14%;right:14%;height:1px;background:repeating-linear-gradient(90deg,var(--line) 0 9px,transparent 9px 18px)}
+.step{position:relative;text-align:center}
+.step__n{
+  width:72px;height:72px;border-radius:50%;background:var(--bg);color:var(--brand);
+  border:1px solid var(--tint-line);
+  display:grid;place-items:center;font-family:var(--serif);font-size:1.7rem;font-weight:600;
+  margin:0 auto 22px;box-shadow:0 0 0 10px var(--bg-2);position:relative;z-index:1;
+}
+.section--alt .step__n{box-shadow:0 0 0 10px var(--bg-2)}
+[data-theme="light"] .step__n{color:#8A6709}
+.step h3{font-size:1.1rem}
+.step p{margin-top:12px;font-size:.9rem;color:var(--muted);line-height:1.68;max-width:34ch;margin-inline:auto}
+
+.appt{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(22px,2.8vw,34px);align-items:start}
+.appt>*{min-width:0}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r-xl);padding:clamp(20px,2.4vw,32px)}
+.cal__top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.cal__month{font-family:var(--serif);font-size:1.25rem;font-weight:600;text-transform:capitalize}
+.cal__nav{display:flex;gap:8px}
+.cal__nav button{
+  width:40px;height:40px;border-radius:var(--r);border:1px solid var(--line);background:var(--card-2);
+  cursor:pointer;display:grid;place-items:center;color:var(--ink-2);transition:border-color .15s,color .15s;
+}
+.cal__nav button:hover:not(:disabled){border-color:var(--brand);color:var(--brand)}
+.cal__nav button:disabled{opacity:.35;cursor:not-allowed}
+.cal__nav svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.cal__dows,.cal__days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.cal__dows{margin-bottom:8px}
+.cal__dows span{text-align:center;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-2);padding-block:6px}
+.cal__day{
+  aspect-ratio:1;min-height:42px;min-width:0;border-radius:var(--r-sm);border:1px solid transparent;background:var(--card-2);
+  cursor:pointer;font-size:.92rem;font-weight:600;color:var(--ink-2);display:grid;place-items:center;
+  position:relative;transition:background .15s,border-color .15s,color .15s,transform .15s var(--ease);
+}
+.cal__day:hover:not(:disabled){border-color:var(--brand);color:var(--ink);transform:translateY(-1px)}
+.cal__day:disabled{opacity:.28;cursor:not-allowed;background:transparent}
+.cal__day.is-empty{background:transparent;border:0;cursor:default;pointer-events:none}
+.cal__day.is-today::after{content:"";position:absolute;bottom:6px;width:4px;height:4px;border-radius:50%;background:var(--brand)}
+.cal__day.is-sel{background:var(--brand);color:var(--gold-ink);border-color:var(--brand);font-weight:800}
+.cal__day.is-sel.is-today::after{background:var(--gold-ink)}
+.cal__legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line-2);font-size:.78rem;color:var(--muted-2)}
+.cal__legend span{display:inline-flex;align-items:center;gap:7px}
+.cal__legend i{width:11px;height:11px;border-radius:3px;display:inline-block;font-style:normal}
+.lg-free{background:var(--card-2);border:1px solid var(--line)}
+.lg-sel{background:var(--brand)}
+.lg-off{background:transparent;border:1px solid var(--line);opacity:.4}
+.slots__head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:14px}
+.slots__head h3{font-size:1.02rem}
+.slots__date{font-size:.84rem;color:var(--brand);font-weight:700}
+[data-theme="light"] .slots__date{color:#8A6709}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(86px,1fr));gap:9px}
+.slot{
+  padding:12px 6px;border-radius:var(--r-sm);border:1px solid var(--line);background:var(--card-2);
+  font-size:.89rem;font-weight:700;cursor:pointer;color:var(--ink-2);text-align:center;min-height:44px;
+  transition:border-color .15s,background .15s,color .15s,transform .15s var(--ease);
+}
+.slot:hover:not(:disabled){border-color:var(--brand);color:var(--ink);transform:translateY(-1px)}
+.slot:disabled{opacity:.3;cursor:not-allowed;text-decoration:line-through}
+.slot.is-sel{background:var(--brand);border-color:var(--brand);color:var(--gold-ink)}
+.slots__empty{color:var(--muted-2);font-size:.88rem;padding:22px 0;text-align:center;line-height:1.6}
+.appt__sum{
+  display:grid;gap:9px;background:var(--tint);border:1px solid var(--tint-line);
+  border-radius:var(--r);padding:15px 17px;margin-bottom:18px;font-size:.88rem;
+}
+.appt__sum div{display:flex;justify-content:space-between;gap:12px}
+.appt__sum b{font-weight:700}
+.appt__sum span{color:var(--muted)}
+.appt-done{
+  display:none;text-align:center;padding:28px 22px;
+  background:rgba(87,217,138,.08);border:1px solid rgba(87,217,138,.3);border-radius:var(--r-lg);
+}
+.appt-done.is-on{display:block}
+.appt-done svg{width:46px;height:46px;stroke:var(--ok);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;margin:0 auto 14px}
+.appt-done h3{color:var(--ok);font-size:1.12rem}
+.appt-done p{margin-top:10px;font-size:.9rem;color:var(--muted);line-height:1.65}
+.appt-done b{color:var(--ink)}
+
+.partners{overflow:hidden;position:relative;padding-block:8px;
+  -webkit-mask:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
+  mask:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+.partners__track{display:flex;gap:14px;width:max-content;animation:slide 48s linear infinite}
+@keyframes slide{to{transform:translateX(-50%)}}
+.partners:hover .partners__track{animation-play-state:paused}
+.plogo{
+  width:186px;height:84px;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--card);
+  display:grid;place-items:center;flex:0 0 auto;padding:12px 16px;text-align:center;
+  transition:border-color .18s,transform .18s var(--ease);
+}
+.plogo:hover{border-color:var(--tint-line);transform:translateY(-2px)}
+.plogo b{font-family:var(--serif);font-size:1.04rem;font-weight:600;letter-spacing:.01em;color:var(--ink-2);line-height:1.3}
+.partners-note{text-align:center;margin-top:26px;font-size:.82rem;color:var(--muted-2);max-width:70ch;margin-inline:auto}
+
+.about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(34px,4.5vw,72px);align-items:center}
+.about>*{min-width:0}
+.about__body h2{margin-top:20px}
+.about__body p{color:var(--muted);font-size:1rem;line-height:1.8}
+.about__body p+p{margin-top:17px}
+.about__facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.fact{display:inline-flex;align-items:center;gap:9px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:11px 16px;font-size:.85rem;font-weight:600}
+.fact svg{width:15px;height:15px;color:var(--brand)}
+[data-theme="light"] .fact svg{color:#8A6709}
+.about__media{display:grid;grid-template-columns:1.12fr .88fr;grid-template-rows:auto auto;gap:14px}
+.about__media .media{border-radius:var(--r-xl)}
+.m-tall{grid-row:span 2;min-height:540px}
+.m-sm{min-height:263px}
+
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px}
+.review{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:28px;display:flex;flex-direction:column}
+.stars{display:flex;gap:3px;color:var(--brand);margin-bottom:16px}
+[data-theme="light"] .stars{color:#B98600}
+.stars svg{width:16px;height:16px;fill:currentColor;stroke:none}
+.review p{font-size:.93rem;line-height:1.72;color:var(--ink-2);flex:1}
+.review__who{display:flex;align-items:center;gap:12px;margin-top:22px;padding-top:18px;border-top:1px solid var(--line-2)}
+.review__ava{width:40px;height:40px;border-radius:50%;background:var(--tint);color:var(--brand);display:grid;place-items:center;font-family:var(--serif);font-weight:600;font-size:.9rem}
+[data-theme="light"] .review__ava{color:#8A6709}
+.review__name{font-weight:700;font-size:.9rem}
+.review__src{font-size:.76rem;color:var(--muted-2)}
+.placeholder-flag{
+  margin-top:26px;background:var(--tint);border:1px dashed var(--tint-line);border-radius:var(--r);
+  padding:13px 17px;font-size:.83rem;color:var(--brand);font-weight:600;text-align:center;max-width:70ch;margin-inline:auto;
+}
+[data-theme="light"] .placeholder-flag{color:#8A6709}
+.reviews-cta{text-align:center;margin-top:32px}
+
+.faq{max-width:840px;margin-inline:auto}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);margin-bottom:10px;overflow:hidden;transition:border-color .18s}
+.faq details[open]{border-color:var(--tint-line)}
+.faq summary{list-style:none;cursor:pointer;padding:21px 58px 21px 26px;font-weight:700;font-size:1rem;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"";position:absolute;right:26px;top:50%;width:10px;height:10px;
+  border-right:2px solid var(--brand);border-bottom:2px solid var(--brand);
+  transform:translateY(-70%) rotate(45deg);transition:transform .22s var(--ease);
+}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq summary:hover{background:var(--card-2)}
+.faq__a{padding:0 26px 23px;color:var(--muted);font-size:.94rem;line-height:1.75}
+
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:clamp(26px,3.4vw,46px)}
+.contact>*{min-width:0}
+.info-list{display:grid;gap:12px}
+.info{display:flex;gap:16px;padding:20px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);align-items:flex-start;min-width:0;transition:border-color .18s}
+.info>*{min-width:0}
+.info:hover{border-color:var(--tint-line)}
+.info__ico{width:44px;height:44px;border-radius:var(--r);background:var(--tint);display:grid;place-items:center;flex:0 0 auto;color:var(--brand)}
+[data-theme="light"] .info__ico{color:#8A6709}
+.info__lbl{font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2)}
+.info__val{font-weight:700;font-size:1rem;margin-top:5px;letter-spacing:-.01em;overflow-wrap:anywhere;display:block}
+.info__sub{font-size:.85rem;color:var(--muted);margin-top:3px}
+.map{border-radius:var(--r-xl);overflow:hidden;border:1px solid var(--line);min-height:300px;position:relative;display:grid;place-items:center;padding:24px;background:var(--card)}
+.map iframe{width:100%;height:100%;min-height:300px;border:0;position:absolute;inset:0;background:#fff}
+.map__ph{text-align:center;max-width:34ch;position:relative;z-index:1}
+.map__ph .ico{width:30px;height:30px;margin:0 auto 12px;color:var(--brand)}
+.map__ph strong{display:block;font-size:1rem;margin-bottom:5px}
+.map__ph span{font-size:.88rem;color:var(--muted);display:block;margin-bottom:18px}
+.map__ph small{display:block;font-size:.76rem;color:var(--muted-2);margin-top:14px;line-height:1.55}
+.callback{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:28px;margin-top:12px}
+.callback h3{font-size:1.08rem}
+.callback p{font-size:.88rem;color:var(--muted);margin-top:8px;margin-bottom:18px}
+.callback p a{color:var(--brand);font-weight:700}
+[data-theme="light"] .callback p a{color:#8A6709}
+.socials{display:flex;gap:10px;margin-top:22px}
+.socials a{
+  width:44px;height:44px;border-radius:var(--r);border:1px solid var(--line);background:var(--card-2);
+  display:grid;place-items:center;color:var(--ink-2);
+  transition:background .18s var(--ease),color .18s,border-color .18s,transform .18s var(--ease);
+}
+.socials a:hover{transform:translateY(-2px);color:#fff}
+.socials a.is-ig:hover{background:linear-gradient(45deg,#F58529,#DD2A7B 55%,#8134AF);border-color:#DD2A7B}
+.socials a.is-fb:hover{background:#1877F2;border-color:#1877F2}
+.socials a.is-wa:hover{background:#25D366;border-color:#25D366}
+.socials svg{width:20px;height:20px}
+
+.card,.why__item,.review,.info,.callback,.panel,.plogo,.faq details{box-shadow:var(--sh-1)}
+.why__item:hover,.info:hover{box-shadow:var(--sh-2);transform:translateY(-2px)}
+.why__item,.info{transition:border-color .2s var(--ease),box-shadow .2s var(--ease),transform .2s var(--ease)}
+.faq details[open]{box-shadow:var(--sh-2)}
+.plogo:hover{box-shadow:var(--sh-2)}
+
+.footer{background:#070B14;color:rgba(236,240,248,.7);padding-block:clamp(52px,6vw,80px) 0;border-top:1px solid var(--line-2)}
+.footer__grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:clamp(28px,3.2vw,50px)}
+.footer__grid>*{min-width:0}
+.footer h4{color:#FFFFFF;font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;font-weight:700;margin-bottom:18px}
+.footer a{color:rgba(236,240,248,.7);font-size:.9rem;transition:color .15s}
+.footer a:hover{color:var(--brand-2)}
+.footer li+li{margin-top:11px}
+.footer__brand .brand__name{color:#fff}
+.footer__blurb{font-size:.9rem;line-height:1.7;margin-top:18px;max-width:34ch}
+.footer__legal-name{margin-top:24px;font-size:.8rem;color:rgba(236,240,248,.45);line-height:1.6;padding-top:18px;border-top:1px solid rgba(255,255,255,.1)}
+.footer__bottom{margin-top:clamp(38px,4.2vw,58px);border-top:1px solid rgba(255,255,255,.1);padding-block:26px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.82rem;color:rgba(236,240,248,.45)}
+.footer__bottom nav{display:flex;gap:18px;flex-wrap:wrap}
+
+.fab-wa{
+  position:fixed;right:22px;bottom:22px;z-index:60;display:inline-flex;align-items:center;gap:10px;
+  background:var(--wa);color:#07200F;padding:14px 20px;border-radius:var(--r-full);
+  font-weight:700;font-size:.92rem;box-shadow:0 8px 26px rgba(37,211,102,.34);
+  transition:transform .18s var(--ease),box-shadow .18s;
+}
+.fab-wa:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(37,211,102,.44)}
+.fab-wa svg{width:22px;height:22px;fill:currentColor}
+.to-top{
+  position:fixed;right:22px;bottom:92px;z-index:59;width:46px;height:46px;border-radius:var(--r);
+  background:var(--card);border:1px solid var(--line);box-shadow:var(--sh-2);cursor:pointer;
+  display:grid;place-items:center;opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:opacity .22s,transform .22s,visibility .22s,border-color .18s;
+}
+.to-top:hover{border-color:var(--brand)}
+.to-top.is-on{opacity:1;visibility:visible;transform:translateY(0)}
+.to-top svg{width:18px;height:18px;stroke:var(--ink);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.mobile-bar{
+  display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--card);
+  border-top:1px solid var(--line);padding:9px 10px calc(9px + env(safe-area-inset-bottom));
+  box-shadow:0 -6px 24px rgba(2,6,14,.5);
+}
+.mobile-bar__in{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:8px}
+.mobile-bar__in>*{min-width:0}
+.mobile-bar a,.mobile-bar button{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;
+  border-radius:var(--r);padding:10px 4px;font-size:.72rem;font-weight:700;
+  border:1px solid var(--line);background:var(--card-2);color:var(--ink-2);cursor:pointer;
+}
+.mobile-bar .m-wa{background:var(--wa);color:#07200F;border-color:var(--wa)}
+.mobile-bar .m-cta{background:var(--brand);border-color:var(--brand);color:var(--gold-ink)}
+.mobile-bar svg{width:18px;height:18px}
+
+.cookie{
+  position:fixed;left:18px;right:18px;bottom:18px;z-index:95;max-width:540px;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);
+  box-shadow:var(--sh-3);padding:24px 26px;transform:translateY(160%);transition:transform .4s var(--ease);
+}
+.cookie.is-on{transform:translateY(0)}
+.cookie h4{font-size:1rem;font-weight:700;margin-bottom:9px}
+.cookie p{font-size:.85rem;color:var(--muted);line-height:1.62}
+.cookie__btns{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.cookie__btns .btn{padding:12px 18px;font-size:.87rem}
+.cookie__link{font-size:.82rem;font-weight:700;text-decoration:underline;text-underline-offset:3px;align-self:center;padding:10px 4px}
+
+.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:18px}
+.modal.is-open{display:flex}
+.modal__bg{position:absolute;inset:0;background:rgba(3,6,12,.76);backdrop-filter:blur(4px);animation:fade .2s var(--ease)}
+.modal__box{
+  position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r-xl);
+  width:100%;max-width:540px;max-height:92vh;overflow-y:auto;padding:clamp(28px,3vw,38px);
+  box-shadow:var(--sh-3);animation:pop .26s var(--ease);
+}
+.modal__box::before{
+  content:"";position:absolute;left:0;right:0;top:0;height:3px;
+  background:linear-gradient(90deg,var(--brand),rgba(246,197,68,.15));
+}
+@keyframes fade{from{opacity:0}}
+@keyframes pop{from{opacity:0;transform:translateY(16px) scale(.98)}}
+.modal__x{
+  position:absolute;top:18px;right:18px;width:40px;height:40px;border-radius:var(--r);
+  border:1px solid var(--line);background:var(--card-2);cursor:pointer;display:grid;place-items:center;
+  transition:border-color .15s,color .15s;color:var(--ink-2);
+}
+.modal__x:hover{border-color:var(--brand);color:var(--brand)}
+.modal__x svg{width:16px;height:16px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round}
+.modal__box h2{font-size:clamp(1.4rem,1.2rem + .7vw,1.8rem);padding-right:44px}
+.modal__box>p.sub{font-size:.9rem;color:var(--muted);margin-top:9px;margin-bottom:24px}
+body.no-scroll{overflow:hidden}
+
+.hero__inner>*,.quote-split>div>*{max-width:100%}
+@media (max-width:1340px){
+  .header__bar{gap:11px;height:76px}
+  .nav a{padding:10px 8px;font-size:.84rem}
+  .tel-link{padding:10px;gap:0;font-size:0}
+  .tel-link svg{width:18px;height:18px}
+  .header__actions .btn{padding:13px 19px;font-size:.92rem}
+}
+@media (max-width:1120px){
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .footer__grid{grid-template-columns:1.4fr 1fr 1fr}
+  .footer__brand{grid-column:1/-1}
+}
+@media (max-width:980px){
+  .hero{min-height:min(92vh,760px);padding-block:130px 96px}
+  .quote-split{grid-template-columns:1fr;gap:34px}
+  .why-split,.about,.contact,.appt{grid-template-columns:1fr}
+  .why-media{aspect-ratio:16/10;min-height:0}
+  .trust__grid{grid-template-columns:repeat(2,1fr)}
+  .trust__item:nth-child(2n){border-right:0}
+  .trust__item:nth-child(-n+2){border-bottom:1px solid var(--line-2)}
+  .steps{grid-template-columns:1fr;gap:26px}
+  .steps::before{display:none}
+  .step{display:grid;grid-template-columns:72px 1fr;gap:20px;text-align:left;align-items:start}
+  .step__n{margin:0;box-shadow:none}
+  .step p{margin-inline:0;max-width:none}
+  .step h3{padding-top:18px}
+  .bento{grid-template-columns:1fr 1fr;grid-template-rows:auto;gap:14px}
+  .bcard--lead{grid-row:auto;grid-column:1/-1;min-height:330px}
+  .bcard{min-height:262px}
+}
+@media (max-width:900px){
+  .nav,.header__actions .tel-link{display:none}
+  .burger{display:flex}
+  .header__actions{margin-left:auto}
+  .header__actions .lang button{min-height:44px;padding:11px 15px}
+  .about__media{grid-template-columns:1fr 1fr}
+  .m-tall{grid-row:auto;min-height:240px}
+  .m-sm{min-height:240px}
+}
+@media (max-width:700px){
+  html{scroll-padding-top:78px}
+  .header__bar{height:68px;gap:9px}
+  .header__actions{gap:8px}
+  .header__actions .lang{display:none}
+  .theme-btn,.burger{width:40px;height:40px}
+  .header__actions .btn{padding:11px 15px;font-size:.88rem}
+  .brand__sub{display:none}
+  .hero{padding-block:120px 90px}
+  .hero__welcome{letter-spacing:.2em;font-size:.68rem;line-height:1.8}
+
+  .hero__welcome::before,.hero__welcome::after{display:none}
+  .hero__cta .btn{flex:1 1 100%}
+  .hero__scroll{display:none}
+  .fab-wa{display:none}
+  .to-top{bottom:88px;right:14px}
+  .mobile-bar{display:block}
+  body{padding-bottom:76px}
+  .cookie{left:10px;right:10px;bottom:86px;padding:20px}
+  .cookie__btns .btn{flex:1 1 100%}
+  .cookie__link{width:100%;text-align:center}
+  .row-2{grid-template-columns:1fr}
+  .cards,.cards--feature{grid-template-columns:1fr}
+  .prod-note{flex-direction:column;align-items:flex-start}
+  .footer__grid{grid-template-columns:1fr 1fr}
+  .footer__bottom{flex-direction:column}
+  .section{padding-block:clamp(52px,7.5vw,80px)}
+  .eyebrow{letter-spacing:.18em;font-size:.68rem}
+  .btn--wrap{white-space:normal;text-align:center}
+  .prod-group__head h3{white-space:normal}
+  .mobile-bar a,.mobile-bar button{font-size:.68rem;padding:9px 2px}
+  .cal__day{aspect-ratio:auto;min-height:42px;font-size:.86rem}
+  .cal__dows span{font-size:.62rem}
+  .slots{grid-template-columns:repeat(auto-fill,minmax(76px,1fr))}
+  .panel{padding:16px}
+  .bento{grid-template-columns:1fr}
+  .bcard--lead{grid-column:auto;min-height:310px}
+  .bcard{min-height:270px}
+  .bcard__art{width:70%;right:-10%}
+  .bcard__body{padding:70px 20px 22px}
+  .bcard--lead .bcard__body{padding:74px 22px 24px}
+}
+@media (max-width:380px){
+  .brand__txt{display:none}
+  .about__media{grid-template-columns:1fr}
+  .cal__dows,.cal__days{gap:4px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
+@media print{.header,.fab-wa,.to-top,.mobile-bar,.cookie,.modal,.hero__scroll{display:none!important}}
+
+</style>
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe atla</a>
+
+<svg style="display:none" aria-hidden="true">
+<defs>
+<symbol id="i-car" viewBox="0 0 24 24"><path d="M5 17h14M6.5 17a1.5 1.5 0 1 0 3 0M14.5 17a1.5 1.5 0 1 0 3 0"/><path d="M4 17v-3.2c0-.4.1-.8.3-1.1l2-3.4c.3-.5.9-.8 1.5-.8h8.4c.6 0 1.2.3 1.5.8l2 3.4c.2.3.3.7.3 1.1V17"/><path d="M4.5 13h15"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3.5 5.5 6v5.5c0 4 2.8 7.6 6.5 8.9 3.7-1.3 6.5-4.9 6.5-8.9V6L12 3.5Z"/><path d="m9.3 12 1.9 1.9 3.6-3.6"/></symbol>
+<symbol id="i-quake" viewBox="0 0 24 24"><path d="M3 20.5h18"/><path d="M5.5 20.5v-8.7L12 6.4l6.5 5.4v8.7"/><path d="M13.1 9.9 10.2 14h3.4l-2.7 4.1"/><path d="M2.4 3.6c.9 1 1.9 1 2.8 0M18.8 3.6c.9 1 1.9 1 2.8 0"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M5.5 20v-9L12 5.8l6.5 5.2v9"/><path d="M10 20v-4.6h4V20"/></symbol>
+<symbol id="i-store" viewBox="0 0 24 24"><path d="M4 20h16M4.5 20v-8M19.5 20v-8"/><path d="M3.6 8.2 5 4.5h14l1.4 3.7a2.2 2.2 0 0 1-4.2 1 2.2 2.2 0 0 1-4.2 0 2.2 2.2 0 0 1-4.2 0 2.2 2.2 0 0 1-4.2-1Z"/><path d="M9.5 20v-5h5v5"/></symbol>
+<symbol id="i-fire" viewBox="0 0 24 24"><path d="M12 2.8c.4 2.6-.6 4-2.2 5.5C7.7 10 6.4 11.6 6.4 14.2A5.6 5.6 0 0 0 12 20.4a5.6 5.6 0 0 0 5.6-6.2c0-2.2-1-3.6-2.4-5.2-.5 1-1.1 1.6-1.9 2 .3-3-.6-6-1.3-8.2Z"/><path d="M12 20.4a2.7 2.7 0 0 1-2.7-2.7c0-1.7 2.7-2.8 2.7-5 0 0 2.7 2.4 2.7 5a2.7 2.7 0 0 1-2.7 2.7Z"/></symbol>
+<symbol id="i-helmet" viewBox="0 0 24 24"><path d="M3.5 16.5h17"/><path d="M5 16.5v-2.2A7 7 0 0 1 12 7.3a7 7 0 0 1 7 7v2.2"/><path d="M9.2 8V4.8h5.6V8"/><path d="M3.5 16.5v1.2c0 .9.7 1.6 1.6 1.6h13.8c.9 0 1.6-.7 1.6-1.6v-1.2"/></symbol>
+<symbol id="i-medkit" viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12" rx="2.2"/><path d="M9 7.5V6a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 6v1.5"/><path d="M12 11v5M9.5 13.5h5"/></symbol>
+<symbol id="i-pulse" viewBox="0 0 24 24"><path d="M3.5 12.5h3.2l1.8-4 2.6 8.5 2.3-6 1.5 3h5.6"/></symbol>
+<symbol id="i-plane" viewBox="0 0 24 24"><path d="M10.5 19.5 12 15l6.5-2.2a2 2 0 1 0-1.3-3.8L10.7 11 6.5 6.8l-1.9.6 2.7 5-3 1.1-1.8-1.4-1.2.4 2 3.4 3.6-.6"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 19.5S4.5 15 4.5 9.9A3.9 3.9 0 0 1 12 8.2a3.9 3.9 0 0 1 7.5 1.7c0 5.1-7.5 9.6-7.5 9.6Z"/></symbol>
+<symbol id="i-piggy" viewBox="0 0 24 24"><path d="M4 12.5c0-3.3 3.1-6 7-6s7 2.7 7 6c0 1.7-.8 3.2-2.1 4.3V19h-2.4v-1.3a9 9 0 0 1-5 0V19H6.1v-2.2C4.8 15.7 4 14.2 4 12.5Z"/><path d="M4.2 11.2 2.6 10v2.8M14.5 10h.01M11 6.6l-.6-2 3.4.7"/></symbol>
+<symbol id="i-bandage" viewBox="0 0 24 24"><rect x="2.6" y="9" width="18.8" height="6" rx="3" transform="rotate(-40 12 12)"/><path d="M10.5 10.5h.01M13.5 13.5h.01M10.5 13.5h.01M13.5 10.5h.01"/></symbol>
+<symbol id="i-truck" viewBox="0 0 24 24"><path d="M2.5 16.5V7.2h11.2v9.3M13.7 10.2h3.4l3.4 3.2v3.1h-1.6"/><path d="M8.6 16.5H7M6 16.5a1.6 1.6 0 1 0 3.2 0 1.6 1.6 0 0 0-3.2 0ZM15.8 16.5a1.6 1.6 0 1 0 3.2 0 1.6 1.6 0 0 0-3.2 0Z"/></symbol>
+<symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 4.5v15M7.5 19.5h9M6 8l6-1.6L18 8"/><path d="M6 8 3.5 14a2.5 2.5 0 0 0 5 0L6 8ZM18 8l-2.5 6a2.5 2.5 0 0 0 5 0L18 8Z"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M7.5 3.8h9c.9 0 1.6.7 1.6 1.6v13.2c0 .9-.7 1.6-1.6 1.6h-9c-.9 0-1.6-.7-1.6-1.6V5.4c0-.9.7-1.6 1.6-1.6Z"/><path d="M10.8 17.4h2.4"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.2" y="5.5" width="17.6" height="13" rx="2.2"/><path d="m3.8 7.2 8.2 5.6 8.2-5.6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s6.5-5.6 6.5-10.2A6.5 6.5 0 0 0 5.5 10.8C5.5 15.4 12 21 12 21Z"/><circle cx="12" cy="10.6" r="2.4"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 7.4V12l3 1.8"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8.4 12.2 2.5 2.5 4.7-4.9"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h14M13 6.5l5.5 5.5L13 17.5"/></symbol>
+<symbol id="i-camera" viewBox="0 0 24 24"><rect x="3" y="6.5" width="18" height="13" rx="2.5"/><circle cx="12" cy="13" r="3.6"/><path d="M8.5 6.5 10 4h4l1.5 2.5"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9.2" cy="8.5" r="3.2"/><path d="M3.5 19c0-3.1 2.5-5.6 5.7-5.6s5.7 2.5 5.7 5.6"/><path d="M16 6.2a3.2 3.2 0 0 1 0 5.9M17.4 13.8c1.9.6 3.1 2.3 3.1 4.4"/></symbol>
+<symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5"/><path d="m8.8 13.4-1.3 6.4 4.5-2.4 4.5 2.4-1.3-6.4"/></symbol>
+<symbol id="i-doc" viewBox="0 0 24 24"><path d="M13.5 3.5H7.2c-.9 0-1.7.8-1.7 1.7v13.6c0 .9.8 1.7 1.7 1.7h9.6c.9 0 1.7-.8 1.7-1.7V8.4l-5-4.9Z"/><path d="M13.4 3.6v4.9h5M8.5 13h7M8.5 16.2h4.5"/></symbol>
+<symbol id="i-cursor" viewBox="0 0 24 24"><path d="M6 3.5 18.5 10l-5.3 1.6L10.5 17 6 3.5Z"/></symbol>
+<symbol id="i-bell" viewBox="0 0 24 24"><path d="M12 4a5.4 5.4 0 0 0-5.4 5.4c0 4.6-2 6-2 6h14.8s-2-1.4-2-6A5.4 5.4 0 0 0 12 4Z"/><path d="M10.3 18.4a2 2 0 0 0 3.4 0"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M20.5 12c0 4-3.8 7.2-8.5 7.2-1 0-2-.2-2.9-.4L4 20.5l1.6-4A6.8 6.8 0 0 1 3.5 12c0-4 3.8-7.2 8.5-7.2s8.5 3.2 8.5 7.2Z"/></symbol>
+</defs>
+</svg>
+
+<header class="header" id="header">
+  <div class="wrap header__bar">
+    <a class="brand" href="#" aria-label="Örnek Sigorta Ankara ana sayfa">
+      <span class="brand__mark" aria-hidden="true">S</span>
+      <span class="brand__txt">
+        <span class="brand__name">Örnek Sigorta</span>
+        <span class="brand__sub">Ankara</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Ana menü">
+      <a href="#teklif">Teklif</a>
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#nasil">Süreç</a>
+      <a href="#randevu">Randevu</a>
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#sss">S.S.S.</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="theme-btn" type="button" id="themeBtn" aria-label="Aydınlık temaya geç">
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M18.5 5.5l-1.7 1.7M7.2 16.8l-1.7 1.7"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z"/></svg>
+      </button>
+      <div class="lang" role="group" aria-label="Dil seçimi">
+        <button type="button" class="is-on" aria-current="true">TR</button>
+        <button type="button">EN</button>
+      </div>
+      <a class="tel-link" href="tel:+905550000000" title="0555 000 00 00">
+        <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+        0555 000 00 00
+      </a>
+      <button class="btn" type="button" data-quote>Teklif Al</button>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Menüyü aç"><span></span></button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#hizmetler">Hizmetler</a>
+    <a href="#nasil">Süreç</a>
+    <a href="#randevu">Randevu</a>
+    <a href="#hakkimizda">Hakkımızda</a>
+    <a href="#yorumlar">Yorumlar</a>
+    <a href="#sss">S.S.S.</a>
+    <a href="#iletisim">İletişim</a>
+    <div class="m-lang-row">
+      <span class="m-lang-lbl">Dil</span>
+      <div class="lang" role="group" aria-label="Dil seçimi">
+        <button type="button">TR</button>
+        <button type="button">EN</button>
+      </div>
+    </div>
+    <div class="m-foot">
+      <a class="btn btn--ghost" href="tel:+905550000000">Hemen Ara</a>
+      <button class="btn" type="button" data-quote>Teklif Al</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="hero__bg">
+    <div class="media" data-media>
+      <img src="gorseller/hero.jpg" alt="" loading="eager" fetchpriority="high" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+    </div>
+  </div>
+  <div class="hero__scrim"></div>
+
+  <div class="wrap hero__inner">
+    <p class="hero__welcome">Hoş geldiniz · Çankaya / Ankara</p>
+    <h1 class="hero__title">57 sigorta şirketinin teklifini karşılaştırıyoruz, <em>siz sadece seçiyorsunuz.</em></h1>
+    <p class="hero__lead">Trafikten kaskoya, DASK'tan tamamlayıcı sağlığa kadar ihtiyacınız olan poliçeyi anlaşmalı olduğumuz şirketler arasında karşılaştırır, size uygun seçenekleri sade bir dille anlatırız. Karar sizin, takibi bizim.</p>
+    <div class="hero__cta">
+      <a class="btn btn--lg" href="#teklif">Ücretsiz Teklif Alın</a>
+      <a class="btn btn--lg btn--glass" href="#randevu">
+        <svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg>
+        Randevu Alın
+      </a>
+    </div>
+  </div>
+
+  <a class="hero__scroll" href="#teklif" aria-label="Aşağı kaydır">
+    Keşfedin
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+  </a>
+</section>
+
+<section class="trust" aria-label="Kurumsal rakamlar">
+  <div class="wrap" style="padding-inline:0">
+    <div class="trust__grid">
+      <div class="trust__item"><div class="trust__num">7 yıl</div><div class="trust__lbl">Sektör tecrübesi</div></div>
+      <div class="trust__item"><div class="trust__num">5.000+</div><div class="trust__lbl">Hizmet verdiğimiz müşteri</div></div>
+      <div class="trust__item"><div class="trust__num">57</div><div class="trust__lbl">Anlaşmalı sigorta şirketi</div></div>
+      <div class="trust__item"><div class="trust__num">6 kişi</div><div class="trust__lbl">Uzman ekip</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="teklif">
+  <div class="wrap quote-split">
+    <div class="quote-side">
+      <span class="eyebrow">Teklif</span>
+      <h2>Poliçeniz için ilk adımı birlikte atalım</h2>
+      <p>Bilgilerinizi bırakın, WhatsApp'tan size dönelim. Çalışma saatleri içinde genellikle aynı gün dönüş yapıyoruz.</p>
+      <ul class="hero__points">
+        <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg> Teklif ve danışmanlık ücretsiz</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg> Çoğu poliçe aynı gün hazır</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg> Hasar sürecini biz takip ederiz</li>
+      </ul>
+      <div class="quote-side__tel">
+        <span>Telefonla görüşmeyi tercih ederseniz:</span>
+        <a href="tel:+905550000000">0555 000 00 00</a>
+      </div>
+    </div>
+
+    <div class="quote-card">
+      <div class="quote-card__head">
+        <div>
+          <h2>Ücretsiz teklif alın</h2>
+          <p>Bilgilerinizi bırakın, WhatsApp'tan size dönelim.</p>
+        </div>
+        <span class="badge-free">Ücretsiz</span>
+      </div>
+
+      <form novalidate data-wa-form id="heroForm">
+        <div class="field">
+          <label for="h-name">Ad Soyad</label>
+          <input type="text" id="h-name" name="name" placeholder="Adınız ve soyadınız" autocomplete="name" maxlength="60" spellcheck="false">
+          <span class="err">Lütfen adınızı ve soyadınızı harflerle yazın.</span>
+        </div>
+        <div class="row-2">
+          <div class="field">
+            <label for="h-tel">Telefon</label>
+            <input type="tel" id="h-tel" name="phone" placeholder="05XX XXX XX XX" autocomplete="tel" inputmode="tel" maxlength="19">
+            <span class="err">Geçerli bir telefon numarası girin.</span>
+          </div>
+          <div class="field">
+            <label for="h-type">Sigorta Türü</label>
+            <select id="h-type" name="type" data-type-select><option value="">Seçiniz</option></select>
+            <span class="err">Bir sigorta türü seçin.</span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="h-msg">Mesajınız <span style="font-weight:500;color:var(--muted-2)">(isteğe bağlı)</span></label>
+          <textarea id="h-msg" name="msg" placeholder="Eklemek istediğiniz bir şey var mı?" maxlength="500"></textarea>
+        </div>
+        <label class="consent" data-consent>
+          <input type="checkbox" name="kvkk">
+          <span>Kişisel verilerimin teklif hazırlanması amacıyla işlenmesine ilişkin <a href="kvkk.html" target="_blank" rel="noopener">Aydınlatma Metni</a>'ni okudum.</span>
+        </label>
+        <button class="btn btn--wa btn--lg btn--block" type="submit">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.3M12 21.8h-.1a9.7 9.7 0 0 1-4.9-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 1 1 8.3 4.6M12 0A12 12 0 0 0 1.6 18L0 24l6.2-1.6A12 12 0 1 0 12 0"/></svg>
+          WhatsApp'tan Teklif Al
+        </button>
+        <div class="form-ok" data-ok>WhatsApp açılıyor… Mesajınız hazır, sadece gönder tuşuna basmanız yeterli.</div>
+        <p class="form-note">Formu gönderdiğinizde bilgileriniz WhatsApp mesajına hazır yazılmış olarak açılır. Gönder tuşuna basmadan hiçbir bilgi bize ulaşmaz.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="hizmetler">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">Hizmetlerimiz</span>
+      <h2>Sigorta Ürünlerimiz</h2>
+      <p>İhtiyacınız olan poliçeyi seçin, anlaşmalı şirketler arasından size uygun teklifleri hazırlayalım. Emin değilseniz de sorun — hangi poliçenin gerektiğini birlikte konuşalım.</p>
+    </div>
+
+    <div class="bento">
+      <article class="bcard bcard--lead">
+        <div class="bcard__media media-slot" data-bmedia>
+          <img src="gorseller/one-cikan/trafik.jpg" alt="" loading="lazy"
+               onload="this.closest('.bcard').classList.add('has-img')" onerror="this.remove()">
+          <svg class="bcard__art" viewBox="0 0 160 130" aria-hidden="true"><path d="M14 96h132M28 96V74.5c0-3 .8-6 2.4-8.6l14.6-24c2.7-4.4 7.5-7.1 12.7-7.1h44.6c5.2 0 10 2.7 12.7 7.1l14.6 24c1.6 2.6 2.4 5.6 2.4 8.6V96"/><path d="M30 72h100"/><circle cx="46" cy="96" r="11"/><circle cx="114" cy="96" r="11"/><path d="M52 42v28M108 42v28"/></svg>
+        </div>
+        <div class="bcard__scrim"></div>
+        <span class="bcard__n" aria-hidden="true">01</span>
+        <div class="bcard__body">
+          <h3>Trafik Sigortası</h3>
+          <p>Kanunen zorunlu poliçe. Ruhsat bilgilerinizi iletin, çoğu poliçeyi aynı gün düzenliyoruz.</p>
+          <button class="bcard__cta" type="button" data-quote data-product="Zorunlu Trafik Sigortası">
+            İncele <span class="sr-only">— Trafik Sigortası için teklif al</span>
+          </button>
+        </div>
+      </article>
+      <article class="bcard">
+        <div class="bcard__media media-slot" data-bmedia>
+          <img src="gorseller/one-cikan/kasko.jpg" alt="" loading="lazy"
+               onload="this.closest('.bcard').classList.add('has-img')" onerror="this.remove()">
+          <svg class="bcard__art" viewBox="0 0 160 130" aria-hidden="true"><path d="M80 14 26 36v34c0 27 21.5 52 54 62 32.5-10 54-35 54-62V36L80 14Z"/><path d="m58 76 14 14 30-32"/><path d="M26 58h108"/></svg>
+        </div>
+        <div class="bcard__scrim"></div>
+        <span class="bcard__n" aria-hidden="true">02</span>
+        <div class="bcard__body">
+          <h3>Kasko</h3>
+          <p>Kendi aracınızdaki zararlar için. Karşılaştırmanın en çok fark yarattığı ürün budur.</p>
+          <button class="bcard__cta" type="button" data-quote data-product="Kasko">
+            İncele <span class="sr-only">— Kasko için teklif al</span>
+          </button>
+        </div>
+      </article>
+      <article class="bcard">
+        <div class="bcard__media media-slot" data-bmedia>
+          <img src="gorseller/one-cikan/konut.jpg" alt="" loading="lazy"
+               onload="this.closest('.bcard').classList.add('has-img')" onerror="this.remove()">
+          <svg class="bcard__art" viewBox="0 0 160 130" aria-hidden="true"><path d="M10 106h140"/><path d="M26 106V58L80 20l54 38v48"/><path d="M62 106V76h36v30"/><path d="M46 46V30h16v10"/></svg>
+        </div>
+        <div class="bcard__scrim"></div>
+        <span class="bcard__n" aria-hidden="true">03</span>
+        <div class="bcard__body">
+          <h3>Konut ve DASK</h3>
+          <p>Zorunlu deprem sigortası ve konut poliçesi. Kiracı ve ev sahibi için farklı kurgulanır.</p>
+          <button class="bcard__cta" type="button" data-quote data-product="Konut Sigortası">
+            İncele <span class="sr-only">— Konut ve DASK için teklif al</span>
+          </button>
+        </div>
+      </article>
+      <article class="bcard">
+        <div class="bcard__media media-slot" data-bmedia>
+          <img src="gorseller/one-cikan/saglik.jpg" alt="" loading="lazy"
+               onload="this.closest('.bcard').classList.add('has-img')" onerror="this.remove()">
+          <svg class="bcard__art" viewBox="0 0 160 130" aria-hidden="true"><rect x="20" y="40" width="120" height="76" rx="12"/><path d="M58 40V28a10 10 0 0 1 10-10h24a10 10 0 0 1 10 10v12"/><path d="M80 60v36M62 78h36"/></svg>
+        </div>
+        <div class="bcard__scrim"></div>
+        <span class="bcard__n" aria-hidden="true">04</span>
+        <div class="bcard__body">
+          <h3>Tamamlayıcı Sağlık</h3>
+          <p>SGK'lılar için anlaşmalı özel hastanelerde daha uygun şartlar. Hastane listesini birlikte kontrol ediyoruz.</p>
+          <button class="bcard__cta" type="button" data-quote data-product="Tamamlayıcı Sağlık Sigortası">
+            İncele <span class="sr-only">— Tamamlayıcı Sağlık için teklif al</span>
+          </button>
+        </div>
+      </article>
+      <article class="bcard">
+        <div class="bcard__media media-slot" data-bmedia>
+          <img src="gorseller/one-cikan/hayat.jpg" alt="" loading="lazy"
+               onload="this.closest('.bcard').classList.add('has-img')" onerror="this.remove()">
+          <svg class="bcard__art" viewBox="0 0 160 130" aria-hidden="true"><path d="M80 118S18 84 18 50a30 30 0 0 1 62-12 30 30 0 0 1 62 12c0 34-62 68-62 68Z"/><path d="M34 66h24l10-16 12 30 10-14h36"/></svg>
+        </div>
+        <div class="bcard__scrim"></div>
+        <span class="bcard__n" aria-hidden="true">05</span>
+        <div class="bcard__body">
+          <h3>Hayat Sigortası</h3>
+          <p>Ailenize maddi güvence. Konut kredisi kullananlardan bankalarca da talep edilir.</p>
+          <button class="bcard__cta" type="button" data-quote data-product="Hayat Sigortası">
+            İncele <span class="sr-only">— Hayat Sigortası için teklif al</span>
+          </button>
+        </div>
+      </article>
+    </div>
+
+    <div class="prod-all-head">Tüm sigorta ürünlerimiz</div>
+
+    <div class="prod-group">
+      <div class="prod-group__head">
+        <span class="prod-group__ico"><svg class="ico" aria-hidden="true"><use href="#i-car"/></svg></span>
+        <h3>Araç Sigortaları</h3>
+      </div>
+      <div class="cards cards--feature">
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/trafik.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-car"/></svg></span>
+          <h4>Zorunlu Trafik Sigortası</h4>
+          <p>Aracınızla karışacağınız bir kazada karşı tarafa verilen zararlar için kanunen yaptırılması zorunlu poliçe. Ruhsat bilgilerinizi iletin, aynı gün hazırlayalım.</p>
+          <button class="card__cta" type="button" data-quote data-product="Zorunlu Trafik Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/kasko.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></span>
+          <h4>Kasko</h4>
+          <p>Trafik sigortasının kapsamadığı, kendi aracınızda oluşabilecek zararlar için isteğe bağlı poliçe. Şirketten şirkete kapsamı ve fiyatı çok değiştiği için karşılaştırmanın en çok fark yarattığı ürün budur.</p>
+          <button class="card__cta" type="button" data-quote data-product="Kasko">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+      </div>
+    </div>
+
+    <div class="prod-group">
+      <div class="prod-group__head">
+        <span class="prod-group__ico"><svg class="ico" aria-hidden="true"><use href="#i-home"/></svg></span>
+        <h3>Konut ve İşyeri Sigortaları</h3>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/dask.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-quake"/></svg></span>
+          <h4>DASK — Zorunlu Deprem Sigortası</h4>
+          <p>Konutlar için kanunen zorunlu deprem sigortası. Abonelik işlemleri ve tapu işlemlerinde de istenir. Yeni yaptırma ve yenileme işlemlerini ofisimizden yürütebilirsiniz.</p>
+          <button class="card__cta" type="button" data-quote data-product="DASK (Zorunlu Deprem Sigortası)">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/konut.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-home"/></svg></span>
+          <h4>Konut Sigortası</h4>
+          <p>DASK'ın dışında kalan riskler için evinizi ve eşyalarınızı güvenceye alan isteğe bağlı poliçe. Kiracı ve ev sahibi için kapsamı farklı kurgulanır.</p>
+          <button class="card__cta" type="button" data-quote data-product="Konut Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/isyeri.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-store"/></svg></span>
+          <h4>İşyeri / Ticari Sigorta</h4>
+          <p>Dükkânınız, deponuz veya ofisiniz ile içindeki demirbaş ve emtia için hazırlanan poliçe. İşin niteliğine göre içeriği değiştiği için önce ne yaptığınızı dinliyoruz.</p>
+          <button class="card__cta" type="button" data-quote data-product="İşyeri / Ticari Sigorta">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/yangin.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-fire"/></svg></span>
+          <h4>Yangın Sigortası</h4>
+          <p>Konut ve işyerlerinde yangın kaynaklı riskler için düzenlenen poliçe. Çoğu zaman konut veya işyeri poliçesinin içinde kurgulanır; ayrı da yaptırılabilir.</p>
+          <button class="card__cta" type="button" data-quote data-product="Yangın Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/isveren.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-helmet"/></svg></span>
+          <h4>İşveren Sorumluluk Sigortası</h4>
+          <p>Yanında sigortalı personel çalıştıran işverenler için, iş kazası kaynaklı sorumluluklara karşı düzenlenen poliçe. Personel sayısı ve iş kolu bilgisiyle teklif hazırlıyoruz.</p>
+          <button class="card__cta" type="button" data-quote data-product="İşveren Sorumluluk Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+      </div>
+    </div>
+
+    <div class="prod-group">
+      <div class="prod-group__head">
+        <span class="prod-group__ico"><svg class="ico" aria-hidden="true"><use href="#i-pulse"/></svg></span>
+        <h3>Sağlık ve Hayat Sigortaları</h3>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/tamamlayici-saglik.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-medkit"/></svg></span>
+          <h4>Tamamlayıcı Sağlık Sigortası</h4>
+          <p>SGK'lı olanların anlaşmalı özel hastanelerden daha uygun şartlarda yararlanabilmesi için yaptırdığı poliçe. Hangi hastanelerin anlaşmalı olduğu şirkete göre değişir; listeyi birlikte kontrol ediyoruz.</p>
+          <button class="card__cta" type="button" data-quote data-product="Tamamlayıcı Sağlık Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/ozel-saglik.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-pulse"/></svg></span>
+          <h4>Özel Sağlık Sigortası</h4>
+          <p>SGK'dan bağımsız, daha geniş bir sağlık güvencesi isteyenler için düzenlenen poliçe. Yaş ve sağlık geçmişi tekliflere doğrudan etki eder.</p>
+          <button class="card__cta" type="button" data-quote data-product="Özel Sağlık Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/seyahat.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-plane"/></svg></span>
+          <h4>Seyahat Sağlık Sigortası</h4>
+          <p>Yurt dışı seyahatlerinde sağlık giderleri için yaptırılan poliçe. Schengen ve benzeri vize başvurularında istenen belgeler arasındadır.</p>
+          <button class="card__cta" type="button" data-quote data-product="Seyahat Sağlık Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/hayat.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-heart"/></svg></span>
+          <h4>Hayat Sigortası</h4>
+          <p>Vefat ve belirlenen diğer durumlarda ailenize maddi bir güvence bırakmak için yapılan poliçe. Konut kredisi kullananlardan bankalarca da talep edilir.</p>
+          <button class="card__cta" type="button" data-quote data-product="Hayat Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/bes.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-piggy"/></svg></span>
+          <h4>Bireysel Emeklilik (BES)</h4>
+          <p>Emeklilik dönemi için düzenli birikim yapmayı sağlayan, devlet katkısı içeren sistem. Sigorta değil birikim ürünüdür; farkını anlatmaktan memnuniyet duyarız.</p>
+          <button class="card__cta" type="button" data-quote data-product="Bireysel Emeklilik (BES)">Bilgi Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/ferdi-kaza.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-bandage"/></svg></span>
+          <h4>Ferdi Kaza Sigortası</h4>
+          <p>Günlük hayatta veya iş yerinde yaşanabilecek kaza sonucu oluşan durumlar için düzenlenen poliçe. Bazı meslek grupları ve ihaleler için talep edilir.</p>
+          <button class="card__cta" type="button" data-quote data-product="Ferdi Kaza Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+      </div>
+    </div>
+
+    <div class="prod-group">
+      <div class="prod-group__head">
+        <span class="prod-group__ico"><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg></span>
+        <h3>Diğer Sigortalar</h3>
+      </div>
+      <div class="cards cards--feature">
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/nakliyat.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg></span>
+          <h4>Nakliyat Sigortası</h4>
+          <p>Yurt içi veya yurt dışı taşıma sırasında yükünüz için düzenlenen poliçe. Sefer bazlı ya da yıllık abonman şeklinde yapılabilir.</p>
+          <button class="card__cta" type="button" data-quote data-product="Nakliyat Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+        <article class="card">
+          <div class="card__media" data-src="gorseller/urun/hukuksal.jpg"></div>
+          <span class="card__ico"><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg></span>
+          <h4>Hukuksal Koruma Sigortası</h4>
+          <p>Araç, konut veya işyeri kaynaklı hukuki uyuşmazlıklarda avukatlık ve dava giderleri için düzenlenen poliçe. Çoğu kişinin varlığını bilmediği, gerektiğinde çok işe yarayan bir üründür.</p>
+          <button class="card__cta" type="button" data-quote data-product="Hukuksal Koruma Sigortası">Teklif Al <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </article>
+      </div>
+    </div>
+
+    <div class="prod-note">
+      <p>Aradığınız ürün listede yok mu? 57 anlaşmalı şirketimizin ürün yelpazesi bu listeden geniştir; bize yazın, bakalım.</p>
+      <button class="btn btn--dark" type="button" data-quote data-product="Listede olmayan bir ürün">Bize Yazın</button>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="neden">
+  <div class="wrap">
+    <div class="why-split">
+      <div class="media why-media" data-media>
+        <img src="gorseller/ofis.jpg" alt="Örnek Sigorta Ankara ofisi" loading="lazy" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+        <div class="media__note">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camera"/></svg>
+          <span>Ofis fotoğrafı<br><b>gorseller/ofis.jpg</b><br>Dikey · en az 1000 × 1400 px</span>
+        </div>
+      </div>
+
+      <div>
+        <span class="eyebrow">Farkımız</span>
+        <h2 style="margin-top:18px">Neden Örnek Sigorta Ankara?</h2>
+        <p style="margin-top:16px;color:var(--muted);font-size:var(--fs-lead);margin-bottom:30px">Poliçeyi her yerden alabilirsiniz. Fark, poliçeyi aldıktan sonra başlıyor.</p>
+
+        <div class="why-list">
+          <div class="why__item"><span class="why__n">01</span><div><h3>Tek teklif değil, karşılaştırma</h3><p>57 sigorta şirketiyle anlaşmalıyız. Tek bir şirketin fiyatını değil, size uygun olanları yan yana koyup farkları anlatıyoruz.</p></div></div>
+          <div class="why__item"><span class="why__n">02</span><div><h3>Hasar anında yalnız değilsiniz</h3><p>Çağrı merkezi sırası beklemek zorunda değilsiniz. Bizi arıyorsunuz, süreci sizin adınıza takip ediyoruz.</p></div></div>
+          <div class="why__item"><span class="why__n">03</span><div><h3>Poliçeleriniz tek yerde</h3><p>Aracınız, eviniz, sağlığınız ayrı şirketlerde olsa bile takibi bizde. Hangi poliçeniz ne zaman bitiyor, biz biliyoruz.</p></div></div>
+          <div class="why__item"><span class="why__n">04</span><div><h3>Yenileme zamanı hatırlatıyoruz</h3><p>Poliçenizin bitiş tarihi yaklaşınca size haber veriyoruz. Zorunlu poliçelerde arada kalan boşluk hem risk hem ceza demek.</p></div></div>
+          <div class="why__item"><span class="why__n">05</span><div><h3>Danışmanlık ücretsiz</h3><p>Hangi sigortanın size gerekli olduğunu konuşmak için poliçe almak zorunda değilsiniz. Sorularınızı ücretsiz yanıtlıyoruz.</p></div></div>
+          <div class="why__item"><span class="why__n">06</span><div><h3>Ankara'da, yüz yüze</h3><p>Çankaya'daki ofisimize gelip oturarak konuşabilirsiniz. İşlemlerin tamamı uzaktan da yürütülebilir, tercih sizin.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="nasil">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">Süreç</span>
+      <h2>Üç adımda poliçeniz hazır</h2>
+      <p>Karmaşık bir süreç değil. Çoğu poliçeyi aynı gün içinde teslim ediyoruz.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="step__n">1</div><div>
+        <h3>Talebinizi iletin</h3>
+        <p>Formu doldurun, randevu alın ya da doğrudan WhatsApp'tan yazın. İhtiyaç duyduğumuz belgeleri size söylüyoruz.</p></div></div>
+      <div class="step"><div class="step__n">2</div><div>
+        <h3>Teklifleri karşılaştıralım</h3>
+        <p>Anlaşmalı şirketlerden gelen teklifleri değerlendirip aralarındaki farkı sade bir dille anlatıyoruz. Sadece fiyata değil, kapsama da bakıyoruz.</p></div></div>
+      <div class="step"><div class="step__n">3</div><div>
+        <h3>Poliçeniz aynı gün elinizde</h3>
+        <p>Seçiminizi yaptıktan sonra poliçenizi düzenleyip WhatsApp veya e-posta ile gönderiyoruz. Ofise gelmeniz gerekmez.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="randevu">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">Randevu</span>
+      <h2>Görüşmek için gün ve saat seçin</h2>
+      <p>Ofisimizde veya telefonla görüşmek isterseniz size uygun saati seçin. Dolu saatler kapalı görünür, seçtiğiniz saat size ayrılır.</p>
+    </div>
+
+    <div class="appt">
+      <div class="panel">
+        <div class="cal__top">
+          <div class="cal__month" id="calMonth">—</div>
+          <div class="cal__nav">
+            <button type="button" id="calPrev" aria-label="Önceki ay"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5.5 8.5 12l6.5 6.5"/></svg></button>
+            <button type="button" id="calNext" aria-label="Sonraki ay"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5.5 6.5 6.5L9 18.5"/></svg></button>
+          </div>
+        </div>
+        <div class="cal__dows" aria-hidden="true">
+          <span>Pzt</span><span>Sal</span><span>Çar</span><span>Per</span><span>Cum</span><span>Cmt</span><span>Paz</span>
+        </div>
+        <div class="cal__days" id="calDays"></div>
+        <div class="cal__legend">
+          <span><i class="lg-free"></i> Müsait</span>
+          <span><i class="lg-sel"></i> Seçili</span>
+          <span><i class="lg-off"></i> Kapalı / geçmiş</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div id="apptFlow">
+          <div class="slots__head">
+            <h3>Saat seçin</h3>
+            <span class="slots__date" id="slotDate"></span>
+          </div>
+          <div class="slots" id="slotList"></div>
+          <p class="slots__empty" id="slotEmpty">Önce takvimden bir gün seçin.</p>
+
+          <form novalidate id="apptForm" style="display:none;margin-top:24px">
+            <div class="appt__sum" id="apptSum"></div>
+            <div class="field">
+              <label for="a-name">Ad Soyad</label>
+              <input type="text" id="a-name" name="name" placeholder="Adınız ve soyadınız" autocomplete="name" maxlength="60" spellcheck="false">
+              <span class="err">Lütfen adınızı ve soyadınızı harflerle yazın.</span>
+            </div>
+            <div class="row-2">
+              <div class="field">
+                <label for="a-tel">Telefon</label>
+                <input type="tel" id="a-tel" name="phone" placeholder="05XX XXX XX XX" autocomplete="tel" inputmode="tel" maxlength="19">
+                <span class="err">Geçerli bir telefon numarası girin.</span>
+              </div>
+              <div class="field">
+                <label for="a-type">Konu</label>
+                <select id="a-type" name="type" data-type-select><option value="">Seçiniz</option></select>
+                <span class="err">Bir konu seçin.</span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="a-where">Görüşme şekli</label>
+              <select id="a-where" name="where">
+                <option value="Telefonla görüşme">Telefonla görüşme</option>
+                <option value="Ofiste yüz yüze">Ofiste yüz yüze</option>
+              </select>
+            </div>
+            <label class="consent" data-consent>
+              <input type="checkbox" name="kvkk">
+              <span>Kişisel verilerimin randevu oluşturulması amacıyla işlenmesine ilişkin <a href="kvkk.html" target="_blank" rel="noopener">Aydınlatma Metni</a>'ni okudum.</span>
+            </label>
+            <button class="btn btn--lg btn--block" type="submit">Randevuyu Onayla</button>
+            <p class="form-note">Randevunuz onaylandığında ofisimiz sizi bilgilendirir. İptal için 0555 000 00 00'ü arayabilirsiniz.</p>
+          </form>
+        </div>
+
+        <div class="appt-done" id="apptDone">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="m8 12.3 2.7 2.7 5.3-5.6"/></svg>
+          <h3>Randevunuz oluşturuldu</h3>
+          <p id="apptDoneTxt"></p>
+          <button class="btn btn--ghost" type="button" id="apptReset" style="margin-top:18px">Yeni randevu oluştur</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">İş ortaklarımız</span>
+      <h2>Çalıştığımız sigorta şirketleri</h2>
+      <p>Türkiye'de faaliyet gösteren 57 sigorta şirketiyle anlaşmalıyız. Aşağıda bir bölümünü görüyorsunuz.</p>
+    </div>
+  </div>
+  <div class="partners">
+    <div class="partners__track" aria-hidden="true">
+      <span class="plogo"><b>Sigorta Şirketi A</b></span><span class="plogo"><b>Sigorta Şirketi B</b></span><span class="plogo"><b>Sigorta Şirketi C</b></span><span class="plogo"><b>Sigorta Şirketi D</b></span><span class="plogo"><b>Sigorta Şirketi E</b></span><span class="plogo"><b>Sigorta Şirketi F</b></span><span class="plogo"><b>Sigorta Şirketi G</b></span><span class="plogo"><b>Sigorta Şirketi H</b></span><span class="plogo"><b>Sigorta Şirketi I</b></span><span class="plogo"><b>Sigorta Şirketi J</b></span>
+      <span class="plogo"><b>Sigorta Şirketi A</b></span><span class="plogo"><b>Sigorta Şirketi B</b></span><span class="plogo"><b>Sigorta Şirketi C</b></span><span class="plogo"><b>Sigorta Şirketi D</b></span><span class="plogo"><b>Sigorta Şirketi E</b></span><span class="plogo"><b>Sigorta Şirketi F</b></span><span class="plogo"><b>Sigorta Şirketi G</b></span><span class="plogo"><b>Sigorta Şirketi H</b></span><span class="plogo"><b>Sigorta Şirketi I</b></span><span class="plogo"><b>Sigorta Şirketi J</b></span>
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="sr-only">Anlaşmalı sigorta şirketleri: Sigorta Şirketi A, Sigorta Şirketi B, Sigorta Şirketi C, Sigorta Şirketi D, Sigorta Şirketi E, Sigorta Şirketi F, Sigorta Şirketi G, Sigorta Şirketi H, Sigorta Şirketi I, Sigorta Şirketi J.</p>
+    <p class="partners-note">Şirket adları, marka kullanım izinleri teyit edildikten sonra vektörel logolarla değiştirilecektir.</p>
+  </div>
+</section>
+
+<section class="section section--alt" id="hakkimizda">
+  <div class="wrap about">
+    <div class="about__body">
+      <span class="eyebrow">Hakkımızda</span>
+      <h2 style="margin-top:18px">Çankaya'da, sigortayı anlaşılır kılıyoruz</h2>
+      <div style="margin-top:22px">
+        <p>Örnek Sigorta Ankara, Çankaya'daki ofisinde 7 yıldır bireysel ve kurumsal müşterilere sigorta hizmeti veriyor. Bugüne kadar 5.000'in üzerinde müşterinin poliçe süreçlerini yürüttük.</p>
+        <p>Örnek Sigorta Aracılık Hizmetleri Ltd. Şti. çatısı altında, Türkiye'de faaliyet gösteren 57 sigorta şirketiyle anlaşmalı olarak çalışıyoruz. Tek bir şirkete bağlı olmadığımız için size en uygun seçeneği aramakta serbestiz — işimizin özü de bu.</p>
+        <p>Altı kişilik ekibimizle trafik ve kaskodan DASK'a, tamamlayıcı sağlıktan işyeri sigortasına kadar geniş bir ürün yelpazesinde hizmet veriyoruz. Poliçeyi düzenlemekle işimizin bittiğini düşünmüyoruz: yenileme tarihlerini takip ediyor, hasar süreçlerinde müşterimizin yanında duruyoruz.</p>
+        <p>Sigorta çoğu insan için yılda bir kez, mecburiyetten yapılan bir işlem. Biz bunu anlaşılır hâle getirmeye çalışıyoruz. Ne aldığınızı bilmenizi, gerektiğinde kimi arayacağınızı bilmenizi istiyoruz.</p>
+      </div>
+      <div class="about__facts">
+        <span class="fact"><svg class="ico" aria-hidden="true"><use href="#i-users"/></svg> Yetkili: Acente Müdürü</span>
+        <span class="fact"><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg> Örnek Mah. Örnek Cad. No: 1, Çankaya</span>
+        <span class="fact"><svg class="ico" aria-hidden="true"><use href="#i-award"/></svg> Merkez</span>
+      </div>
+    </div>
+
+    <div class="about__media">
+      <div class="media m-tall" data-media>
+        <img src="gorseller/dis-cephe.jpg" alt="Ofis dış cephesi" loading="lazy" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+        <div class="media__note"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camera"/></svg><span>Dış cephe<br><b>dis-cephe.jpg</b></span></div>
+      </div>
+      <div class="media m-sm" data-media>
+        <img src="gorseller/tabela.jpg" alt="Ofis tabelası" loading="lazy" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+        <div class="media__note"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camera"/></svg><span>Tabela<br><b>tabela.jpg</b></span></div>
+      </div>
+      <div class="media m-sm" data-media>
+        <img src="gorseller/ofis-ici.jpg" alt="Ofis içi" loading="lazy" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+        <div class="media__note"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camera"/></svg><span>Ofis içi<br><b>ofis-ici.jpg</b></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="yorumlar">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">Referanslar</span>
+      <h2>Müşterilerimiz ne diyor?</h2>
+      <p>Google İşletme Profilimizdeki gerçek müşteri yorumları.</p>
+    </div>
+    <div class="reviews">
+      <article class="review">
+        <div class="stars" aria-label="5 üzerinden 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg></div>
+        <p>[Yer tutucu yorum — Google İşletme Profili erişimi geldiğinde gerçek yorumla değiştirilecektir. Bu metin uydurmadır ve yayına çıkmayacaktır.]</p>
+        <div class="review__who"><span class="review__ava">—</span><div><div class="review__name">Müşteri adı</div><div class="review__src">Google Yorumu</div></div></div>
+      </article>
+      <article class="review">
+        <div class="stars" aria-label="5 üzerinden 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg></div>
+        <p>[Yer tutucu yorum — Google İşletme Profili erişimi geldiğinde gerçek yorumla değiştirilecektir. Bu metin uydurmadır ve yayına çıkmayacaktır.]</p>
+        <div class="review__who"><span class="review__ava">—</span><div><div class="review__name">Müşteri adı</div><div class="review__src">Google Yorumu</div></div></div>
+      </article>
+      <article class="review">
+        <div class="stars" aria-label="5 üzerinden 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z"/></svg></div>
+        <p>[Yer tutucu yorum — Google İşletme Profili erişimi geldiğinde gerçek yorumla değiştirilecektir. Bu metin uydurmadır ve yayına çıkmayacaktır.]</p>
+        <div class="review__who"><span class="review__ava">—</span><div><div class="review__name">Müşteri adı</div><div class="review__src">Google Yorumu</div></div></div>
+      </article>
+    </div>
+    <div class="placeholder-flag">⚠ Bu bölümdeki yorumlar yer tutucudur. Google İşletme Profili erişimi sağlandığında gerçek yorumlarla değiştirilecektir.</div>
+    <div class="reviews-cta"><a class="btn btn--ghost btn--wrap" href="#" rel="noopener">Tüm yorumları Google'da görün</a></div>
+  </div>
+</section>
+
+<section class="section section--alt" id="sss">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">Sorularınız</span>
+      <h2>Sıkça Sorulan Sorular</h2>
+    </div>
+    <div class="faq">
+      <details open><summary>Teklif almak ücretli mi?</summary><div class="faq__a">Hayır. Teklif hazırlamak ve hangi poliçenin size uygun olduğunu konuşmak tamamen ücretsizdir. Poliçe almak zorunda değilsiniz.</div></details>
+      <details><summary>Ofise gelmem gerekiyor mu?</summary><div class="faq__a">Gerekmiyor. Poliçe işlemlerinin tamamı WhatsApp ve e-posta üzerinden yürütülebilir. Yüz yüze görüşmek isterseniz Çankaya'daki ofisimize bekleriz; randevu bölümünden size uygun saati seçebilirsiniz.</div></details>
+      <details><summary>Poliçem ne kadar sürede hazır olur?</summary><div class="faq__a">Belgeleriniz eksiksizse çoğu poliçeyi aynı gün içinde düzenliyoruz. Sağlık sigortası gibi başvuru değerlendirmesi gereken ürünlerde süre şirketin onayına bağlı olarak uzayabilir.</div></details>
+      <details><summary>Zorunlu trafik sigortası için hangi belgeler gerekiyor?</summary><div class="faq__a">Genellikle aracın ruhsat bilgileri ve sigorta yaptıracak kişinin kimlik bilgisi yeterlidir. Özel durumlarda ek belge gerekebilir; talebinizi aldığımızda size net olarak bildiriyoruz.</div></details>
+      <details><summary>Neden acente üzerinden yaptırayım, internetten kendim yapamaz mıyım?</summary><div class="faq__a">Yapabilirsiniz. Aradaki fark fiyatta değil, sonrasında: hasar anında süreci takip edecek, poliçeler arasındaki kapsam farkını anlatacak ve yenileme tarihini hatırlatacak birinin olması. Acente hizmeti için sizden ayrıca ücret alınmaz.</div></details>
+      <details><summary>Kasko ile trafik sigortası arasındaki fark ne?</summary><div class="faq__a">Zorunlu trafik sigortası kanunen yaptırılması gereken ve kazada karşı tarafın zararına yönelik bir poliçedir. Kasko ise isteğe bağlıdır ve kendi aracınızda oluşabilecek zararlara yöneliktir. İkisi birbirinin yerine geçmez.</div></details>
+      <details><summary>Tamamlayıcı sağlık sigortası ile özel sağlık sigortası aynı şey mi?</summary><div class="faq__a">Değil. Tamamlayıcı sağlık, SGK'lı olmanızı gerektirir ve SGK ile birlikte çalışır. Özel sağlık sigortası ise SGK'dan bağımsızdır ve genellikle daha kapsamlı, buna bağlı olarak daha yüksek primlidir.</div></details>
+      <details><summary>Poliçemi başka bir acenteden almıştım, siz devralabilir misiniz?</summary><div class="faq__a">Vade bitiminde yenilemeyi bizim üzerimizden yapabilirsiniz. Mevcut poliçeniz devam ederken de takibini üstlenebiliriz; poliçenizi bize iletmeniz yeterli.</div></details>
+      <details><summary>Hasar durumunda ne yapmam gerekiyor?</summary><div class="faq__a">Önce bizi arayın. Hangi belgelerin gerektiğini, hangi sırayla ilerleyeceğinizi anlatıyor ve süreci sigorta şirketi nezdinde sizin adınıza takip ediyoruz.</div></details>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="iletisim">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">İletişim</span>
+      <h2>Bize ulaşın</h2>
+      <p>Aklınıza takılan her şeyi sorabilirsiniz. Çalışma saatleri içinde genellikle aynı gün dönüş yapıyoruz.</p>
+    </div>
+
+    <div class="contact">
+      <div>
+        <div class="info-list">
+          <a class="info" href="https://maps.google.com/?q=Örnek+Mah.+Örnek+Cad.+No+1+Çankaya+Ankara" target="_blank" rel="noopener">
+            <span class="info__ico"><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg></span>
+            <span><span class="info__lbl">Adres</span><span class="info__val">Örnek Mah. Örnek Cad. No: 1</span><span class="info__sub">Çankaya / Ankara — Merkez</span></span>
+          </a>
+          <a class="info" href="tel:+905550000000">
+            <span class="info__ico"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg></span>
+            <span><span class="info__lbl">Telefon / WhatsApp</span><span class="info__val">0555 000 00 00</span><span class="info__sub">Arayın veya WhatsApp'tan yazın</span></span>
+          </a>
+          <a class="info" href="mailto:info@ornek-sigorta.example">
+            <span class="info__ico"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg></span>
+            <span><span class="info__lbl">E-posta</span><span class="info__val">info@ornek-sigorta.example</span><span class="info__sub">Belgelerinizi e-posta ile de gönderebilirsiniz</span></span>
+          </a>
+          <div class="info">
+            <span class="info__ico"><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg></span>
+            <span><span class="info__lbl">Çalışma saatleri</span><span class="info__val">08:00 – 18:30</span><span class="info__sub">Pazartesi – Cumartesi</span></span>
+          </div>
+        </div>
+
+        <div class="callback">
+          <h3>Sizi biz arayalım</h3>
+          <p>Belirli bir saat gözetmeksizin dönüş isterseniz numaranızı bırakın. Belirli bir gün ve saat için <a href="#randevu" style="color:var(--brand);font-weight:700">randevu bölümünü</a> kullanabilirsiniz.</p>
+          <form novalidate data-wa-form data-mode="callback">
+            <div class="row-2">
+              <div class="field" style="margin-bottom:0">
+                <label for="c-name">Ad Soyad</label>
+                <input type="text" id="c-name" name="name" placeholder="Adınız ve soyadınız" autocomplete="name" maxlength="60" spellcheck="false">
+                <span class="err">Lütfen adınızı harflerle yazın.</span>
+              </div>
+              <div class="field" style="margin-bottom:0">
+                <label for="c-tel">Telefon</label>
+                <input type="tel" id="c-tel" name="phone" placeholder="05XX XXX XX XX" autocomplete="tel" inputmode="tel" maxlength="19">
+                <span class="err">Geçerli bir numara girin.</span>
+              </div>
+            </div>
+            <label class="consent" data-consent>
+              <input type="checkbox" name="kvkk">
+              <span>Kişisel verilerimin işlenmesine ilişkin <a href="kvkk.html" target="_blank" rel="noopener">Aydınlatma Metni</a>'ni okudum.</span>
+            </label>
+            <button class="btn btn--dark btn--block" type="submit">Geri arama talebi gönder</button>
+            <div class="form-ok" data-ok>Talebiniz alındı. Çalışma saatleri içinde sizi arayacağız.</div>
+          </form>
+          <div class="socials">
+            <a class="is-ig" href="#" aria-label="Instagram" title="Hesap adresi müşteriden gelecek">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.35" cy="6.65" r="1.25" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a class="is-fb" href="#" aria-label="Facebook" title="Hesap adresi müşteriden gelecek">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.6 21.5v-7.1h2.38l.45-2.93H13.6V9.56c0-.8.39-1.58 1.65-1.58h1.28V5.49s-1.16-.2-2.27-.2c-2.31 0-3.83 1.4-3.83 3.95v2.23H8.25v2.93h2.18v7.1a10.1 10.1 0 0 0 3.17 0Z"/></svg>
+            </a>
+            <a class="is-wa" href="https://wa.me/905550000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.3M12 21.8h-.1a9.7 9.7 0 0 1-4.9-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 1 1 8.3 4.6M12 0A12 12 0 0 0 1.6 18L0 24l6.2-1.6A12 12 0 1 0 12 0"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="map" id="map">
+        <div class="map__ph">
+          <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>
+          <strong>Örnek Mah. Örnek Cad. No: 1</strong>
+          <span>Çankaya / Ankara — Merkez</span>
+          <button class="btn btn--ghost" type="button" id="loadMap">Haritayı göster</button>
+          <small>Harita yalnızca siz istediğinizde yüklenir. Böylece sayfa daha hızlı açılır ve Google çerezleri onayınız olmadan çalışmaz.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="brand">
+          <span class="brand__mark" aria-hidden="true">S</span>
+          <span class="brand__txt"><span class="brand__name">Örnek Sigorta</span><span class="brand__sub">Ankara</span></span>
+        </div>
+        <p class="footer__blurb">Çankaya / Ankara'da 7 yıldır bireysel ve kurumsal sigorta hizmeti.</p>
+        <p class="footer__legal-name">Örnek Sigorta Aracılık Hizmetleri Ltd. Şti.<br>Örnek Mah. Örnek Cad. No: 1, Çankaya / Ankara</p>
+      </div>
+      <div>
+        <h4>Hizmetler</h4>
+        <ul>
+          <li><a href="#hizmetler">Zorunlu Trafik</a></li>
+          <li><a href="#hizmetler">Kasko</a></li>
+          <li><a href="#hizmetler">DASK</a></li>
+          <li><a href="#hizmetler">Konut Sigortası</a></li>
+          <li><a href="#hizmetler">Tamamlayıcı Sağlık</a></li>
+          <li><a href="#hizmetler">İşyeri Sigortası</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kurumsal</h4>
+        <ul>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#nasil">Süreç</a></li>
+          <li><a href="#randevu">Randevu Al</a></li>
+          <li><a href="#yorumlar">Müşteri Yorumları</a></li>
+          <li><a href="#sss">S.S.S.</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>İletişim</h4>
+        <ul>
+          <li><a href="tel:+905550000000">0555 000 00 00</a></li>
+          <li><a href="mailto:info@ornek-sigorta.example">info@ornek-sigorta.example</a></li>
+          <li>Pzt – Cmt: 08:00 – 18:30</li>
+        </ul>
+        <h4 style="margin-top:24px">Yasal</h4>
+        <ul>
+          <li><a href="kvkk.html">KVKK Aydınlatma Metni</a></li>
+          <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+          <li><a href="cerez.html">Çerez Politikası</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Örnek Sigorta Ankara. Tüm hakları saklıdır.</span>
+      <nav aria-label="Yasal bağlantılar">
+        <a href="kvkk.html">KVKK</a><a href="gizlilik.html">Gizlilik</a><a href="cerez.html">Çerez</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<a class="fab-wa" href="https://wa.me/905550000000?text=Merhaba%2C%20sigorta%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.3M12 21.8h-.1a9.7 9.7 0 0 1-4.9-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 1 1 8.3 4.6M12 0A12 12 0 0 0 1.6 18L0 24l6.2-1.6A12 12 0 1 0 12 0"/></svg>
+  WhatsApp'tan yazın
+</a>
+
+<button class="to-top" id="toTop" type="button" aria-label="Başa dön">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5"/></svg>
+</button>
+
+<nav class="mobile-bar" aria-label="Hızlı erişim">
+  <div class="mobile-bar__in">
+    <a href="tel:+905550000000"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> Ara</a>
+    <a class="m-wa" href="https://wa.me/905550000000?text=Merhaba%2C%20sigorta%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true" style="stroke:currentColor"><use href="#i-chat"/></svg> WhatsApp</a>
+    <button class="m-cta" type="button" data-quote><svg class="ico" aria-hidden="true"><use href="#i-cursor"/></svg> Teklif Al</button>
+  </div>
+</nav>
+
+<div class="cookie" id="cookie" role="dialog" aria-live="polite" aria-label="Çerez tercihi">
+  <h4>Bu sitede çerez kullanıyoruz</h4>
+  <p>Siteyi geliştirmek ve size daha uygun içerik sunmak için çerezlerden yararlanıyoruz. Zorunlu çerezler dışındakileri kabul etmeyebilirsiniz.</p>
+  <div class="cookie__btns">
+    <button class="btn" type="button" data-cookie="all">Tümünü kabul et</button>
+    <button class="btn btn--ghost" type="button" data-cookie="min">Sadece zorunlu</button>
+    <a class="cookie__link" href="cerez.html">Çerez Politikası</a>
+  </div>
+</div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal__bg" data-close></div>
+  <div class="modal__box">
+    <button class="modal__x" type="button" data-close aria-label="Kapat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <h2 id="modalTitle">Ücretsiz teklif alın</h2>
+    <p class="sub">Bilgilerinizi bırakın, WhatsApp'tan size dönelim. Çalışma saatleri içinde genellikle aynı gün dönüş yapıyoruz.</p>
+    <form novalidate data-wa-form id="modalForm">
+      <div class="field">
+        <label for="m-name">Ad Soyad</label>
+        <input type="text" id="m-name" name="name" placeholder="Adınız ve soyadınız" autocomplete="name" maxlength="60" spellcheck="false">
+        <span class="err">Lütfen adınızı ve soyadınızı harflerle yazın.</span>
+      </div>
+      <div class="row-2">
+        <div class="field">
+          <label for="m-tel">Telefon</label>
+          <input type="tel" id="m-tel" name="phone" placeholder="05XX XXX XX XX" autocomplete="tel" inputmode="tel" maxlength="19">
+          <span class="err">Geçerli bir telefon numarası girin.</span>
+        </div>
+        <div class="field">
+          <label for="m-type">Sigorta Türü</label>
+          <select id="m-type" name="type" data-type-select><option value="">Seçiniz</option></select>
+          <span class="err">Bir sigorta türü seçin.</span>
+        </div>
+      </div>
+      <div class="field">
+        <label for="m-msg">Mesajınız <span style="font-weight:500;color:var(--muted-2)">(isteğe bağlı)</span></label>
+        <textarea id="m-msg" name="msg" placeholder="Eklemek istediğiniz bir şey var mı?" maxlength="500"></textarea>
+      </div>
+      <label class="consent" data-consent>
+        <input type="checkbox" name="kvkk">
+        <span>Kişisel verilerimin teklif hazırlanması amacıyla işlenmesine ilişkin <a href="kvkk.html" target="_blank" rel="noopener">Aydınlatma Metni</a>'ni okudum.</span>
+      </label>
+      <button class="btn btn--wa btn--lg btn--block" type="submit">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.3M12 21.8h-.1a9.7 9.7 0 0 1-4.9-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 1 1 8.3 4.6M12 0A12 12 0 0 0 1.6 18L0 24l6.2-1.6A12 12 0 1 0 12 0"/></svg>
+        WhatsApp'tan Teklif Al
+      </button>
+      <div class="form-ok" data-ok>WhatsApp açılıyor… Mesajınız hazır, sadece gönder tuşuna basmanız yeterli.</div>
+      <p class="form-note">Formu gönderdiğinizde bilgileriniz WhatsApp mesajına hazır yazılmış olarak açılır. Gönder tuşuna basmadan hiçbir bilgi bize ulaşmaz.</p>
+    </form>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+var SOZLUK={"Dil":"Language","İçeriğe atla":"Skip to content","Teklif":"Quote","Hizmetler":"Services","Süreç":"Process","Randevu":"Appointment","Hakkımızda":"About","S.S.S.":"FAQ","İletişim":"Contact","Teklif Al":"Get a Quote","Yorumlar":"Reviews","Hemen Ara":"Call Now","Hoş geldiniz · Çankaya / Ankara":"Welcome · Çankaya / Ankara","57 sigorta şirketinin teklifini karşılaştırıyoruz,":"We compare quotes from 57 insurance companies,","siz sadece seçiyorsunuz.":"you simply choose.","Trafikten kaskoya, DASK'tan tamamlayıcı sağlığa kadar ihtiyacınız olan poliçeyi anlaşmalı olduğumuz şirketler arasında karşılaştırır, size uygun seçenekleri sade bir dille anlatırız. Karar sizin, takibi bizim.":"From motor and comprehensive cover to earthquake and complementary health insurance, we compare the policy you need across the companies we work with and explain the suitable options in plain language. The choice is yours; the follow-up is ours.","Ücretsiz Teklif Alın":"Get a Free Quote","Randevu Alın":"Book an Appointment","Keşfedin":"Explore","7 yıl":"7 years","Sektör tecrübesi":"Industry experience","Hizmet verdiğimiz müşteri":"Customers served","Anlaşmalı sigorta şirketi":"Partner insurance companies","6 kişi":"6 people","Uzman ekip":"Expert team","Poliçeniz için ilk adımı birlikte atalım":"Let us take the first step towards your policy together","Bilgilerinizi bırakın, WhatsApp'tan size dönelim. Çalışma saatleri içinde genellikle aynı gün dönüş yapıyoruz.":"Leave your details and we will get back to you on WhatsApp. Within working hours we usually reply the same day.","Teklif ve danışmanlık ücretsiz":"Quotes and advice are free","Çoğu poliçe aynı gün hazır":"Most policies ready the same day","Hasar sürecini biz takip ederiz":"We follow your claim process","Telefonla görüşmeyi tercih ederseniz:":"If you prefer to talk on the phone:","Ücretsiz teklif alın":"Get a free quote","Bilgilerinizi bırakın, WhatsApp'tan size dönelim.":"Leave your details and we will get back to you on WhatsApp.","Ücretsiz":"Free","Ad Soyad":"Full Name","Lütfen adınızı ve soyadınızı harflerle yazın.":"Please enter your first and last name using letters.","Telefon":"Phone","Geçerli bir telefon numarası girin.":"Please enter a valid phone number.","Sigorta Türü":"Insurance Type","Seçiniz":"Select","Bir sigorta türü seçin.":"Please select an insurance type.","Mesajınız":"Your Message","(isteğe bağlı)":"(optional)","Kişisel verilerimin teklif hazırlanması amacıyla işlenmesine ilişkin":"For the purpose of preparing a quote, I have read the","Aydınlatma Metni":"Privacy Notice","'ni okudum.":" on the processing of my personal data.","WhatsApp'tan Teklif Al":"Get a Quote on WhatsApp","WhatsApp açılıyor… Mesajınız hazır, sadece gönder tuşuna basmanız yeterli.":"Opening WhatsApp… Your message is ready, all you need to do is press send.","Formu gönderdiğinizde bilgileriniz WhatsApp mesajına hazır yazılmış olarak açılır. Gönder tuşuna basmadan hiçbir bilgi bize ulaşmaz.":"When you submit the form, your details open as a ready-written WhatsApp message. Nothing reaches us until you press send.","Hizmetlerimiz":"Our Services","Sigorta Ürünlerimiz":"Our Insurance Products","İhtiyacınız olan poliçeyi seçin, anlaşmalı şirketler arasından size uygun teklifleri hazırlayalım. Emin değilseniz de sorun — hangi poliçenin gerektiğini birlikte konuşalım.":"Choose the policy you need and we will prepare suitable quotes from our partner companies. Not sure which one you need? Just ask — we will work it out together.","Trafik Sigortası":"Motor Third Party Liability","Kanunen zorunlu poliçe. Ruhsat bilgilerinizi iletin, çoğu poliçeyi aynı gün düzenliyoruz.":"A policy required by law. Send us your vehicle registration details; we issue most policies the same day.","İncele":"View","— Trafik Sigortası için teklif al":" — get a quote for Motor Third Party Liability","Kasko":"Comprehensive Motor","Kendi aracınızdaki zararlar için. Karşılaştırmanın en çok fark yarattığı ürün budur.":"For damage to your own vehicle. The product where comparing makes the biggest difference.","— Kasko için teklif al":" — get a quote for Comprehensive Motor","Konut ve DASK":"Home & Earthquake","Zorunlu deprem sigortası ve konut poliçesi. Kiracı ve ev sahibi için farklı kurgulanır.":"Compulsory earthquake cover and home policy. Structured differently for tenants and owners.","— Konut ve DASK için teklif al":" — get a quote for Home & Earthquake","Tamamlayıcı Sağlık":"Complementary Health","SGK'lılar için anlaşmalı özel hastanelerde daha uygun şartlar. Hastane listesini birlikte kontrol ediyoruz.":"Better terms at partner private hospitals for those with public health cover. We check the hospital list together.","— Tamamlayıcı Sağlık için teklif al":" — get a quote for Complementary Health","Hayat Sigortası":"Life Insurance","Ailenize maddi güvence. Konut kredisi kullananlardan bankalarca da talep edilir.":"Financial security for your family. Also required by banks from mortgage borrowers.","— Hayat Sigortası için teklif al":" — get a quote for Life Insurance","Tüm sigorta ürünlerimiz":"All our insurance products","Araç Sigortaları":"Motor Insurance","Zorunlu Trafik Sigortası":"Compulsory Motor Third Party Liability","Aracınızla karışacağınız bir kazada karşı tarafa verilen zararlar için kanunen yaptırılması zorunlu poliçe. Ruhsat bilgilerinizi iletin, aynı gün hazırlayalım.":"A policy required by law, covering damage you cause to third parties in an accident. Send us your registration details and we will prepare it the same day.","Trafik sigortasının kapsamadığı, kendi aracınızda oluşabilecek zararlar için isteğe bağlı poliçe. Şirketten şirkete kapsamı ve fiyatı çok değiştiği için karşılaştırmanın en çok fark yarattığı ürün budur.":"An optional policy for damage to your own vehicle, which third party liability does not cover. Scope and price vary widely between companies, which is why comparing matters most with this product.","Konut ve İşyeri Sigortaları":"Home & Business Insurance","DASK — Zorunlu Deprem Sigortası":"DASK — Compulsory Earthquake Insurance","Konutlar için kanunen zorunlu deprem sigortası. Abonelik işlemleri ve tapu işlemlerinde de istenir. Yeni yaptırma ve yenileme işlemlerini ofisimizden yürütebilirsiniz.":"Earthquake insurance required by law for homes. It is also requested for utility subscriptions and title deed transactions. We handle new policies and renewals from our office.","Konut Sigortası":"Home Insurance","DASK'ın dışında kalan riskler için evinizi ve eşyalarınızı güvenceye alan isteğe bağlı poliçe. Kiracı ve ev sahibi için kapsamı farklı kurgulanır.":"An optional policy covering your home and belongings against risks outside DASK. Structured differently for tenants and owners.","İşyeri / Ticari Sigorta":"Business & Commercial Insurance","Dükkânınız, deponuz veya ofisiniz ile içindeki demirbaş ve emtia için hazırlanan poliçe. İşin niteliğine göre içeriği değiştiği için önce ne yaptığınızı dinliyoruz.":"A policy for your shop, warehouse or office together with its fixtures and stock. The content varies by line of business, so we listen to what you do first.","Yangın Sigortası":"Fire Insurance","Konut ve işyerlerinde yangın kaynaklı riskler için düzenlenen poliçe. Çoğu zaman konut veya işyeri poliçesinin içinde kurgulanır; ayrı da yaptırılabilir.":"A policy covering fire-related risks in homes and business premises. It is usually built into a home or business policy, but can also be taken separately.","İşveren Sorumluluk Sigortası":"Employer's Liability Insurance","Yanında sigortalı personel çalıştıran işverenler için, iş kazası kaynaklı sorumluluklara karşı düzenlenen poliçe. Personel sayısı ve iş kolu bilgisiyle teklif hazırlıyoruz.":"For employers with insured staff, covering liabilities arising from workplace accidents. We prepare quotes based on headcount and line of business.","Sağlık ve Hayat Sigortaları":"Health & Life Insurance","Tamamlayıcı Sağlık Sigortası":"Complementary Health Insurance","SGK'lı olanların anlaşmalı özel hastanelerden daha uygun şartlarda yararlanabilmesi için yaptırdığı poliçe. Hangi hastanelerin anlaşmalı olduğu şirkete göre değişir; listeyi birlikte kontrol ediyoruz.":"Taken by those with public health cover so they can use partner private hospitals on better terms. Which hospitals are covered varies by company; we check the list together.","Özel Sağlık Sigortası":"Private Health Insurance","SGK'dan bağımsız, daha geniş bir sağlık güvencesi isteyenler için düzenlenen poliçe. Yaş ve sağlık geçmişi tekliflere doğrudan etki eder.":"A policy for those who want broader health cover independent of the public scheme. Age and medical history directly affect the quotes.","Seyahat Sağlık Sigortası":"Travel Health Insurance","Yurt dışı seyahatlerinde sağlık giderleri için yaptırılan poliçe. Schengen ve benzeri vize başvurularında istenen belgeler arasındadır.":"A policy covering medical expenses on trips abroad. It is among the documents requested for Schengen and similar visa applications.","Vefat ve belirlenen diğer durumlarda ailenize maddi bir güvence bırakmak için yapılan poliçe. Konut kredisi kullananlardan bankalarca da talep edilir.":"A policy that leaves your family financial security in the event of death and other defined circumstances. It is also requested by banks from mortgage borrowers.","Bireysel Emeklilik (BES)":"Private Pension (BES)","Emeklilik dönemi için düzenli birikim yapmayı sağlayan, devlet katkısı içeren sistem. Sigorta değil birikim ürünüdür; farkını anlatmaktan memnuniyet duyarız.":"A system that enables regular saving for retirement, including a state contribution. It is a savings product rather than insurance; we are happy to explain the difference.","Bilgi Al":"Learn More","Ferdi Kaza Sigortası":"Personal Accident Insurance","Günlük hayatta veya iş yerinde yaşanabilecek kaza sonucu oluşan durumlar için düzenlenen poliçe. Bazı meslek grupları ve ihaleler için talep edilir.":"A policy for situations arising from accidents in daily life or at work. It is requested for some professions and public tenders.","Diğer Sigortalar":"Other Insurance","Nakliyat Sigortası":"Marine & Cargo Insurance","Yurt içi veya yurt dışı taşıma sırasında yükünüz için düzenlenen poliçe. Sefer bazlı ya da yıllık abonman şeklinde yapılabilir.":"A policy for your cargo during domestic or international transport. Available per shipment or as an annual contract.","Hukuksal Koruma Sigortası":"Legal Protection Insurance","Araç, konut veya işyeri kaynaklı hukuki uyuşmazlıklarda avukatlık ve dava giderleri için düzenlenen poliçe. Çoğu kişinin varlığını bilmediği, gerektiğinde çok işe yarayan bir üründür.":"A policy covering legal and court costs in disputes arising from your vehicle, home or business. Most people do not know it exists, and it proves very useful when needed.","Aradığınız ürün listede yok mu? 57 anlaşmalı şirketimizin ürün yelpazesi bu listeden geniştir; bize yazın, bakalım.":"Cannot find the product you are looking for? Our 57 partner companies offer a wider range than this list; write to us and we will look into it.","Bize Yazın":"Write to Us","Ofis fotoğrafı":"Office photo","Dikey · en az 1000 × 1400 px":"Portrait · at least 1000 × 1400 px","Farkımız":"What Sets Us Apart","Neden Örnek Sigorta Ankara?":"Why Örnek Sigorta Ankara?","Poliçeyi her yerden alabilirsiniz. Fark, poliçeyi aldıktan sonra başlıyor.":"You can buy a policy anywhere. The difference begins after you buy it.","Tek teklif değil, karşılaştırma":"Comparison, not a single quote","57 sigorta şirketiyle anlaşmalıyız. Tek bir şirketin fiyatını değil, size uygun olanları yan yana koyup farkları anlatıyoruz.":"We work with 57 insurance companies. Instead of one company's price, we put the options that suit you side by side and explain the differences.","Hasar anında yalnız değilsiniz":"You are not alone when you claim","Çağrı merkezi sırası beklemek zorunda değilsiniz. Bizi arıyorsunuz, süreci sizin adınıza takip ediyoruz.":"You do not have to wait in a call centre queue. You call us, and we follow the process on your behalf.","Poliçeleriniz tek yerde":"All your policies in one place","Aracınız, eviniz, sağlığınız ayrı şirketlerde olsa bile takibi bizde. Hangi poliçeniz ne zaman bitiyor, biz biliyoruz.":"Even if your car, home and health are with different companies, we track them. We know when each of your policies expires.","Yenileme zamanı hatırlatıyoruz":"We remind you when renewal is due","Poliçenizin bitiş tarihi yaklaşınca size haber veriyoruz. Zorunlu poliçelerde arada kalan boşluk hem risk hem ceza demek.":"We let you know as your policy's expiry date approaches. With compulsory policies, a gap means both risk and a fine.","Danışmanlık ücretsiz":"Advice is free","Hangi sigortanın size gerekli olduğunu konuşmak için poliçe almak zorunda değilsiniz. Sorularınızı ücretsiz yanıtlıyoruz.":"You do not have to buy a policy to discuss which insurance you need. We answer your questions free of charge.","Ankara'da, yüz yüze":"In Ankara, face to face","Çankaya'daki ofisimize gelip oturarak konuşabilirsiniz. İşlemlerin tamamı uzaktan da yürütülebilir, tercih sizin.":"You can come to our office in Çankaya and talk it through in person. Everything can also be handled remotely — the choice is yours.","Üç adımda poliçeniz hazır":"Your policy ready in three steps","Karmaşık bir süreç değil. Çoğu poliçeyi aynı gün içinde teslim ediyoruz.":"It is not a complicated process. We deliver most policies the same day.","Talebinizi iletin":"Send us your request","Formu doldurun, randevu alın ya da doğrudan WhatsApp'tan yazın. İhtiyaç duyduğumuz belgeleri size söylüyoruz.":"Fill in the form, book an appointment or write to us directly on WhatsApp. We will tell you which documents we need.","Teklifleri karşılaştıralım":"Let us compare the quotes","Anlaşmalı şirketlerden gelen teklifleri değerlendirip aralarındaki farkı sade bir dille anlatıyoruz. Sadece fiyata değil, kapsama da bakıyoruz.":"We assess the quotes from our partner companies and explain the differences in plain language. We look at the cover, not just the price.","Poliçeniz aynı gün elinizde":"Your policy the same day","Seçiminizi yaptıktan sonra poliçenizi düzenleyip WhatsApp veya e-posta ile gönderiyoruz. Ofise gelmeniz gerekmez.":"Once you have made your choice, we issue your policy and send it by WhatsApp or email. There is no need to come to the office.","Görüşmek için gün ve saat seçin":"Choose a day and time to meet","Ofisimizde veya telefonla görüşmek isterseniz size uygun saati seçin. Dolu saatler kapalı görünür, seçtiğiniz saat size ayrılır.":"Choose a time that suits you for a meeting at our office or over the phone. Booked times appear closed, and the time you choose is reserved for you.","Pzt":"Mon","Sal":"Tue","Çar":"Wed","Per":"Thu","Cum":"Fri","Cmt":"Sat","Paz":"Sun","Müsait":"Available","Seçili":"Selected","Kapalı / geçmiş":"Closed / past","Saat seçin":"Choose a time","Önce takvimden bir gün seçin.":"Select a day from the calendar first.","Konu":"Subject","Bir konu seçin.":"Please select a subject.","Görüşme şekli":"Meeting type","Telefonla görüşme":"Phone call","Ofiste yüz yüze":"In person at the office","Kişisel verilerimin randevu oluşturulması amacıyla işlenmesine ilişkin":"For the purpose of booking an appointment, I have read the","Randevuyu Onayla":"Confirm Appointment","Randevunuz onaylandığında ofisimiz sizi bilgilendirir. İptal için 0555 000 00 00'ü arayabilirsiniz.":"Our office will contact you once your appointment is confirmed. To cancel, please call 0555 000 00 00.","Randevunuz oluşturuldu":"Your appointment is booked","Yeni randevu oluştur":"Book another appointment","İş ortaklarımız":"Our Partners","Çalıştığımız sigorta şirketleri":"The insurance companies we work with","Türkiye'de faaliyet gösteren 57 sigorta şirketiyle anlaşmalıyız. Aşağıda bir bölümünü görüyorsunuz.":"We work with 57 insurance companies operating in Türkiye. A selection is shown below.","Anlaşmalı sigorta şirketleri: Sigorta Şirketi A, Sigorta Şirketi B, Sigorta Şirketi C, Sigorta Şirketi D, Sigorta Şirketi E, Sigorta Şirketi F, Sigorta Şirketi G, Sigorta Şirketi H, Sigorta Şirketi I, Sigorta Şirketi J.":"Partner insurance companies: Sigorta Şirketi A, Sigorta Şirketi B, Sigorta Şirketi C, Sigorta Şirketi D, Sigorta Şirketi E, Sigorta Şirketi F, Sigorta Şirketi G, Sigorta Şirketi H, Sigorta Şirketi I, Sigorta Şirketi J.","Şirket adları, marka kullanım izinleri teyit edildikten sonra vektörel logolarla değiştirilecektir.":"Company names will be replaced with vector logos once brand usage permissions are confirmed.","Çankaya'da, sigortayı anlaşılır kılıyoruz":"Making insurance understandable, in Çankaya","Örnek Sigorta Ankara, Çankaya'daki ofisinde 7 yıldır bireysel ve kurumsal müşterilere sigorta hizmeti veriyor. Bugüne kadar 5.000'in üzerinde müşterinin poliçe süreçlerini yürüttük.":"Örnek Sigorta Ankara has been serving individual and corporate customers from its office in Çankaya for 7 years. To date we have handled the policy processes of more than 5,000 customers.","Örnek Sigorta Aracılık Hizmetleri Ltd. Şti. çatısı altında, Türkiye'de faaliyet gösteren 57 sigorta şirketiyle anlaşmalı olarak çalışıyoruz. Tek bir şirkete bağlı olmadığımız için size en uygun seçeneği aramakta serbestiz — işimizin özü de bu.":"Under the roof of Örnek Sigorta Aracılık Hizmetleri Ltd. Şti., we work with 57 insurance companies operating in Türkiye. Because we are not tied to a single company, we are free to look for the option that suits you best — and that is the essence of our work.","Altı kişilik ekibimizle trafik ve kaskodan DASK'a, tamamlayıcı sağlıktan işyeri sigortasına kadar geniş bir ürün yelpazesinde hizmet veriyoruz. Poliçeyi düzenlemekle işimizin bittiğini düşünmüyoruz: yenileme tarihlerini takip ediyor, hasar süreçlerinde müşterimizin yanında duruyoruz.":"With our team of six we cover a wide range of products, from motor and comprehensive cover to earthquake insurance, from complementary health to business policies. We do not consider our job finished when the policy is issued: we track renewal dates and stand by our customers throughout the claims process.","Sigorta çoğu insan için yılda bir kez, mecburiyetten yapılan bir işlem. Biz bunu anlaşılır hâle getirmeye çalışıyoruz. Ne aldığınızı bilmenizi, gerektiğinde kimi arayacağınızı bilmenizi istiyoruz.":"For most people insurance is something done once a year out of obligation. We try to make it understandable. We want you to know what you are buying, and who to call when you need to.","Yetkili: Acente Müdürü":"Contact: Acente Müdürü","Merkez":"Next to the 7th Notary","Dış cephe":"Exterior","Tabela":"Signage","Ofis içi":"Office interior","Referanslar":"Testimonials","Müşterilerimiz ne diyor?":"What our customers say","Google İşletme Profilimizdeki gerçek müşteri yorumları.":"Real customer reviews from our Google Business Profile.","[Yer tutucu yorum — Google İşletme Profili erişimi geldiğinde gerçek yorumla değiştirilecektir. Bu metin uydurmadır ve yayına çıkmayacaktır.]":"[Placeholder review — it will be replaced with a real review once Google Business Profile access is provided. This text is fictional and will not go live.]","Müşteri adı":"Customer name","Google Yorumu":"Google Review","⚠ Bu bölümdeki yorumlar yer tutucudur. Google İşletme Profili erişimi sağlandığında gerçek yorumlarla değiştirilecektir.":"⚠ The reviews in this section are placeholders. They will be replaced with real reviews once Google Business Profile access is provided.","Tüm yorumları Google'da görün":"See all reviews on Google","Sorularınız":"Your Questions","Sıkça Sorulan Sorular":"Frequently Asked Questions","Teklif almak ücretli mi?":"Is getting a quote free?","Hayır. Teklif hazırlamak ve hangi poliçenin size uygun olduğunu konuşmak tamamen ücretsizdir. Poliçe almak zorunda değilsiniz.":"Yes, it is free. Preparing a quote and discussing which policy suits you costs nothing. You are under no obligation to buy a policy.","Ofise gelmem gerekiyor mu?":"Do I need to come to the office?","Gerekmiyor. Poliçe işlemlerinin tamamı WhatsApp ve e-posta üzerinden yürütülebilir. Yüz yüze görüşmek isterseniz Çankaya'daki ofisimize bekleriz; randevu bölümünden size uygun saati seçebilirsiniz.":"No. All policy transactions can be handled via WhatsApp and email. If you would prefer to meet in person, you are welcome at our office in Çankaya; you can choose a suitable time in the appointment section.","Poliçem ne kadar sürede hazır olur?":"How long does it take for my policy to be ready?","Belgeleriniz eksiksizse çoğu poliçeyi aynı gün içinde düzenliyoruz. Sağlık sigortası gibi başvuru değerlendirmesi gereken ürünlerde süre şirketin onayına bağlı olarak uzayabilir.":"If your documents are complete, we issue most policies the same day. For products that require underwriting, such as health insurance, the timing depends on the company's approval.","Zorunlu trafik sigortası için hangi belgeler gerekiyor?":"Which documents are needed for compulsory motor insurance?","Genellikle aracın ruhsat bilgileri ve sigorta yaptıracak kişinin kimlik bilgisi yeterlidir. Özel durumlarda ek belge gerekebilir; talebinizi aldığımızda size net olarak bildiriyoruz.":"Usually the vehicle registration details and the ID details of the person taking out the policy are enough. Additional documents may be needed in special cases; we tell you exactly what is required when we receive your request.","Neden acente üzerinden yaptırayım, internetten kendim yapamaz mıyım?":"Why go through an agency instead of buying online myself?","Yapabilirsiniz. Aradaki fark fiyatta değil, sonrasında: hasar anında süreci takip edecek, poliçeler arasındaki kapsam farkını anlatacak ve yenileme tarihini hatırlatacak birinin olması. Acente hizmeti için sizden ayrıca ücret alınmaz.":"You can buy online. The difference is not the price but what comes afterwards: having someone who follows your claim, explains the differences in cover between policies and reminds you when renewal is due. You are not charged extra for agency service.","Kasko ile trafik sigortası arasındaki fark ne?":"What is the difference between comprehensive and third party motor cover?","Zorunlu trafik sigortası kanunen yaptırılması gereken ve kazada karşı tarafın zararına yönelik bir poliçedir. Kasko ise isteğe bağlıdır ve kendi aracınızda oluşabilecek zararlara yöneliktir. İkisi birbirinin yerine geçmez.":"Compulsory third party liability is required by law and covers the other party's loss in an accident. Comprehensive cover is optional and covers damage to your own vehicle. Neither replaces the other.","Tamamlayıcı sağlık sigortası ile özel sağlık sigortası aynı şey mi?":"Are complementary health and private health insurance the same thing?","Değil. Tamamlayıcı sağlık, SGK'lı olmanızı gerektirir ve SGK ile birlikte çalışır. Özel sağlık sigortası ise SGK'dan bağımsızdır ve genellikle daha kapsamlı, buna bağlı olarak daha yüksek primlidir.":"No. Complementary health requires you to have public health cover and works alongside it. Private health insurance is independent of the public scheme and is generally broader, and therefore has a higher premium.","Poliçemi başka bir acenteden almıştım, siz devralabilir misiniz?":"I bought my policy from another agency — can you take it over?","Vade bitiminde yenilemeyi bizim üzerimizden yapabilirsiniz. Mevcut poliçeniz devam ederken de takibini üstlenebiliriz; poliçenizi bize iletmeniz yeterli.":"You can renew through us when the term ends. We can also take over the tracking while your current policy is still running; just send the policy to us.","Hasar durumunda ne yapmam gerekiyor?":"What should I do if I need to make a claim?","Önce bizi arayın. Hangi belgelerin gerektiğini, hangi sırayla ilerleyeceğinizi anlatıyor ve süreci sigorta şirketi nezdinde sizin adınıza takip ediyoruz.":"Call us first. We explain which documents are needed and in what order to proceed, and we follow the process with the insurance company on your behalf.","Bize ulaşın":"Get in touch","Aklınıza takılan her şeyi sorabilirsiniz. Çalışma saatleri içinde genellikle aynı gün dönüş yapıyoruz.":"You can ask us anything on your mind. Within working hours we usually reply the same day.","Adres":"Address","Çankaya / Ankara — Merkez":"Çankaya / Ankara — next to the 7th Notary","Telefon / WhatsApp":"Phone / WhatsApp","Arayın veya WhatsApp'tan yazın":"Call us or write on WhatsApp","E-posta":"Email","Belgelerinizi e-posta ile de gönderebilirsiniz":"You can also send your documents by email","Çalışma saatleri":"Working hours","Pazartesi – Cumartesi":"Monday – Saturday","Sizi biz arayalım":"We will call you","Belirli bir saat gözetmeksizin dönüş isterseniz numaranızı bırakın. Belirli bir gün ve saat için":"Leave your number if you would like a call back without a specific time in mind. For a particular day and time, use the","randevu bölümünü":"appointment section","kullanabilirsiniz.":".","Lütfen adınızı harflerle yazın.":"Please enter your name using letters.","Geçerli bir numara girin.":"Please enter a valid number.","Kişisel verilerimin işlenmesine ilişkin":"I have read the","Geri arama talebi gönder":"Send call-back request","Talebiniz alındı. Çalışma saatleri içinde sizi arayacağız.":"Your request has been received. We will call you within working hours.","Haritayı göster":"Show map","Harita yalnızca siz istediğinizde yüklenir. Böylece sayfa daha hızlı açılır ve Google çerezleri onayınız olmadan çalışmaz.":"The map loads only when you ask for it. This keeps the page faster and prevents Google cookies from running without your consent.","Çankaya / Ankara'da 7 yıldır bireysel ve kurumsal sigorta hizmeti.":"Individual and corporate insurance in Çankaya / Ankara for 7 years.","Zorunlu Trafik":"Motor Third Party","İşyeri Sigortası":"Business Insurance","Kurumsal":"Company","Randevu Al":"Book Appointment","Müşteri Yorumları":"Customer Reviews","Pzt – Cmt: 08:00 – 18:30":"Mon – Sat: 08:00 – 18:30","Yasal":"Legal","KVKK Aydınlatma Metni":"Privacy Notice (KVKK)","Gizlilik Politikası":"Privacy Policy","Çerez Politikası":"Cookie Policy","© 2026 Örnek Sigorta Ankara. Tüm hakları saklıdır.":"© 2026 Örnek Sigorta Ankara. All rights reserved.","Gizlilik":"Privacy","Çerez":"Cookies","WhatsApp'tan yazın":"Message on WhatsApp","Ara":"Call","Bu sitede çerez kullanıyoruz":"We use cookies on this site","Siteyi geliştirmek ve size daha uygun içerik sunmak için çerezlerden yararlanıyoruz. Zorunlu çerezler dışındakileri kabul etmeyebilirsiniz.":"We use cookies to improve the site and offer you more relevant content. You may decline everything except the essential ones.","Tümünü kabul et":"Accept all","Sadece zorunlu":"Essential only","Örnek Sigorta Ankara ana sayfa":"Örnek Sigorta Ankara home page","Ana menü":"Main menu","Aydınlık temaya geç":"Switch to light theme","Dil seçimi":"Language selection","Menüyü aç":"Open menu","Aşağı kaydır":"Scroll down","Kurumsal rakamlar":"Company figures","Adınız ve soyadınız":"Your first and last name","Eklemek istediğiniz bir şey var mı?":"Is there anything you would like to add?","Örnek Sigorta Ankara ofisi":"Örnek Sigorta Ankara office","Önceki ay":"Previous month","Sonraki ay":"Next month","Ofis dış cephesi":"Office exterior","Ofis tabelası":"Office signage","5 üzerinden 5":"5 out of 5","Hesap adresi müşteriden gelecek":"Account link will be provided by the client","Yasal bağlantılar":"Legal links","Başa dön":"Back to top","Hızlı erişim":"Quick access","Çerez tercihi":"Cookie preference","Kapat":"Close"};
+var URUNLER=[{"tr":"Araç Sigortaları","en":"Motor Insurance","i":[{"tr":"Zorunlu Trafik Sigortası","en":"Compulsory Motor Third Party Liability"},{"tr":"Kasko","en":"Comprehensive Motor"}]},{"tr":"Konut ve İşyeri Sigortaları","en":"Home & Business Insurance","i":[{"tr":"DASK (Zorunlu Deprem Sigortası)","en":"DASK (Compulsory Earthquake Insurance)"},{"tr":"Konut Sigortası","en":"Home Insurance"},{"tr":"İşyeri / Ticari Sigorta","en":"Business & Commercial Insurance"},{"tr":"Yangın Sigortası","en":"Fire Insurance"},{"tr":"İşveren Sorumluluk Sigortası","en":"Employer's Liability Insurance"}]},{"tr":"Sağlık ve Hayat Sigortaları","en":"Health & Life Insurance","i":[{"tr":"Tamamlayıcı Sağlık Sigortası","en":"Complementary Health Insurance"},{"tr":"Özel Sağlık Sigortası","en":"Private Health Insurance"},{"tr":"Seyahat Sağlık Sigortası","en":"Travel Health Insurance"},{"tr":"Hayat Sigortası","en":"Life Insurance"},{"tr":"Bireysel Emeklilik (BES)","en":"Private Pension (BES)"},{"tr":"Ferdi Kaza Sigortası","en":"Personal Accident Insurance"}]},{"tr":"Diğer Sigortalar","en":"Other Insurance","i":[{"tr":"Nakliyat Sigortası","en":"Marine & Cargo Insurance"},{"tr":"Hukuksal Koruma Sigortası","en":"Legal Protection Insurance"},{"tr":"Listede olmayan bir ürün","en":"A product not on the list"}]}];
+var METIN={"tr":{"gunSec":"Takvimden bir gün seçin.","gunDolu":"Bu gün için uygun saat kalmadı. Lütfen başka bir gün seçin.","ozetTarih":"Tarih","ozetGun":"Gün","ozetSaat":"Saat","saatDoldu":"Seçtiğiniz saat bu arada doldu. Lütfen başka bir saat seçin.","randevuBilgi":"Randevu bilgileriniz {tel} numarasına iletilecektir.","doluEtiket":"{saat} dolu","menuAc":"Menüyü aç","menuKapat":"Menüyü kapat","temaAydinlik":"Aydınlık temaya geç","temaKaranlik":"Karanlık temaya geç","gunEtiket":"{g} {ay} {yil}, {gun}","waSelam":"Merhaba, sigorta teklifi almak istiyorum.","waAd":"Ad Soyad: ","waTel":"Telefon: ","waTur":"Sigorta Türü: ","waNot":"Not: ","waKaynak":"(ornek-sigorta.example üzerinden gönderildi)","waHazir":"Merhaba, sigorta hakkında bilgi almak istiyorum.","baslik":"Örnek Sigorta Ankara | Çankaya Sigorta Acentesi — Trafik, Kasko, DASK, Sağlık","aciklama":"Örnek Sigorta Ankara, Çankaya'da 7 yıldır hizmet veren sigorta acentesi. 57 anlaşmalı şirket arasından trafik, kasko, DASK, konut, tamamlayıcı sağlık ve işyeri sigortası tekliflerini karşılaştırıyoruz. Ücretsiz teklif alın."},"en":{"gunSec":"Select a day from the calendar.","gunDolu":"No times are available for this day. Please choose another day.","ozetTarih":"Date","ozetGun":"Day","ozetSaat":"Time","saatDoldu":"The time you selected has just been booked. Please choose another time.","randevuBilgi":"Your appointment details will be sent to {tel}.","doluEtiket":"{saat} booked","menuAc":"Open menu","menuKapat":"Close menu","temaAydinlik":"Switch to light theme","temaKaranlik":"Switch to dark theme","gunEtiket":"{gun}, {g} {ay} {yil}","waSelam":"Hello, I would like to get an insurance quote.","waAd":"Full Name: ","waTel":"Phone: ","waTur":"Insurance Type: ","waNot":"Note: ","waKaynak":"(sent via ornek-sigorta.example)","waHazir":"Hello, I would like some information about insurance.","baslik":"Örnek Sigorta Ankara | Insurance Agency in Çankaya — Motor, Home, Earthquake, Health","aciklama":"Örnek Sigorta Ankara has been serving from Çankaya for 7 years. We compare motor, comprehensive, earthquake, home, complementary health and business insurance quotes across 57 partner companies. Get a free quote."}};
+var AYLAR={"tr":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"],"en":["January","February","March","April","May","June","July","August","September","October","November","December"]};
+var GUNLER={"tr":["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],"en":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]};
+
+var WA_NUMBER = "905550000000";
+
+var RANDEVU = {
+  kapaliGunler: [0],
+  baslangic: "09:00",
+  bitis: "17:30",
+  adimDk: 30,
+  enErkenSaat: 60,
+  ileriGun: 90
+};
+
+var DIL = (function(){
+  try { return localStorage.getItem("osa_lang") === "en" ? "en" : "tr"; }
+  catch (e) { return "tr"; }
+})();
+
+function T(anahtar){ return METIN[DIL][anahtar]; }
+function bicim(kalip, degerler){
+  return kalip.replace(/\{(\w+)\}/g, function(t, a){
+    return degerler[a] !== undefined ? degerler[a] : t;
+  });
+}
+
+var kayitlar = [];
+function metinleriTopla(){
+  var yuruyucu = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode: function(n){
+      var p = n.parentNode;
+      if (!p || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+      var etiket = p.nodeName.toLowerCase();
+      if (etiket === "script" || etiket === "style") return NodeFilter.FILTER_REJECT;
+      if (p.closest && p.closest("svg")) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  var n;
+  while ((n = yuruyucu.nextNode())) kayitlar.push({ dugum: n, tr: n.nodeValue });
+  ["placeholder","aria-label","title","alt"].forEach(function(oz){
+    document.querySelectorAll("[" + oz + "]").forEach(function(el){
+      var v = el.getAttribute(oz);
+      if (v && v.trim() && !(el.closest && el.closest("svg"))) {
+        kayitlar.push({ el: el, oz: oz, tr: v });
+      }
+    });
+  });
+}
+
+function metinleriUygula(){
+  kayitlar.forEach(function(k){
+    var ham = k.tr, ic = ham.trim();
+    var cev = (DIL === "en" && SOZLUK[ic]) ? SOZLUK[ic] : ic;
+    var yeni = ham.replace(ic, function(){ return cev; });
+    if (k.dugum) k.dugum.nodeValue = yeni;
+    else k.el.setAttribute(k.oz, yeni);
+  });
+  document.documentElement.lang = DIL;
+  document.title = T("baslik");
+  var aciklama = document.querySelector('meta[name="description"]');
+  if (aciklama) aciklama.setAttribute("content", T("aciklama"));
+  var hazir = encodeURIComponent(T("waHazir"));
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function(a){
+    if (a.getAttribute("href").indexOf("text=") !== -1) {
+      a.setAttribute("href", "https://wa.me/" + WA_NUMBER + "?text=" + hazir);
+    }
+  });
+}
+
+function turleriDoldur(){
+  document.querySelectorAll("[data-type-select]").forEach(function(sel){
+    var secili = sel.value;
+    sel.innerHTML = "";
+    var bos = document.createElement("option");
+    bos.value = "";
+    bos.textContent = DIL === "en" ? "Select" : "Seçiniz";
+    sel.appendChild(bos);
+    URUNLER.forEach(function(grp){
+      var og = document.createElement("optgroup");
+      og.label = grp[DIL];
+      grp.i.forEach(function(u){
+        var o = document.createElement("option");
+        o.value = u.tr;
+        o.textContent = u[DIL];
+        og.appendChild(o);
+      });
+      sel.appendChild(og);
+    });
+    if (secili) sel.value = secili;
+  });
+}
+
+function urunEtiketi(deger){
+  if (DIL === "tr") return deger;
+  for (var g = 0; g < URUNLER.length; g++){
+    for (var i = 0; i < URUNLER[g].i.length; i++){
+      if (URUNLER[g].i[i].tr === deger) return URUNLER[g].i[i].en + " (" + deger + ")";
+    }
+  }
+  return deger;
+}
+
+var themeBtn = document.getElementById("themeBtn");
+var metaTheme = document.getElementById("metaTheme");
+function temaYansit(){
+  var koyu = document.documentElement.getAttribute("data-theme") !== "light";
+  if (metaTheme) metaTheme.setAttribute("content", koyu ? "#0B111E" : "#FDFCFA");
+  if (themeBtn) themeBtn.setAttribute("aria-label", koyu ? T("temaAydinlik") : T("temaKaranlik"));
+}
+if (themeBtn){
+  themeBtn.addEventListener("click", function(){
+    var yeni = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", yeni);
+    try { localStorage.setItem("osa_theme", yeni); } catch (e) {}
+    temaYansit();
+  });
+}
+
+var header = document.getElementById("header");
+var toTop = document.getElementById("toTop");
+function kaydirma(){
+  var y = window.scrollY || document.documentElement.scrollTop;
+  header.classList.toggle("is-stuck", y > 24);
+  toTop.classList.toggle("is-on", y > 700);
+}
+window.addEventListener("scroll", kaydirma, { passive: true });
+kaydirma();
+toTop.addEventListener("click", function(){ window.scrollTo({ top: 0, behavior: "smooth" }); });
+
+var burger = document.querySelector(".burger");
+var mnav = document.getElementById("mobileNav");
+burger.addEventListener("click", function(){
+  var acik = burger.getAttribute("aria-expanded") === "true";
+  burger.setAttribute("aria-expanded", String(!acik));
+  burger.setAttribute("aria-label", acik ? T("menuAc") : T("menuKapat"));
+  mnav.classList.toggle("is-open", !acik);
+});
+mnav.querySelectorAll("a").forEach(function(a){
+  a.addEventListener("click", function(){
+    mnav.classList.remove("is-open");
+    burger.setAttribute("aria-expanded", "false");
+  });
+});
+
+var navLinks = Array.prototype.slice.call(document.querySelectorAll(".nav a"));
+var hedefler = navLinks.map(function(a){ return document.querySelector(a.getAttribute("href")); }).filter(Boolean);
+if ("IntersectionObserver" in window && hedefler.length){
+  var io = new IntersectionObserver(function(kayitlarIO){
+    kayitlarIO.forEach(function(e){
+      if (!e.isIntersecting) return;
+      navLinks.forEach(function(a){
+        a.classList.toggle("is-active", a.getAttribute("href") === "#" + e.target.id);
+      });
+    });
+  }, { rootMargin: "-45% 0px -50% 0px" });
+  hedefler.forEach(function(t){ io.observe(t); });
+}
+
+var AD_SUZGEC, HARF_TEST, HARF_SAY;
+try {
+  AD_SUZGEC = new RegExp("[^\\p{L}\\s'.’-]", "gu");
+  HARF_TEST = new RegExp("\\p{L}", "u");
+  HARF_SAY = new RegExp("[^\\p{L}]", "gu");
+} catch (e) {
+  AD_SUZGEC = /[^A-Za-zÇÖŞÜĞİÎÂçöşüğıîâ\s'.’-]/g;
+  HARF_TEST = /[A-Za-zÇÖŞÜĞİÎÂçöşüğıîâ]/;
+  HARF_SAY = /[^A-Za-zÇÖŞÜĞİÎÂçöşüğıîâ]/g;
+}
+function adSuz(v){
+  var out = (v || "").replace(AD_SUZGEC, "")
+    .replace(/^[\s'.’-]+/, "")
+    .replace(/([\s'.’-])\1+/g, "$1")
+    .slice(0, 60);
+  return HARF_TEST.test(out) ? out : "";
+}
+function adDuzelt(v){ return adSuz(v).replace(/\s{2,}/g, " ").trim(); }
+function adGecerli(v){ return adDuzelt(v).replace(HARF_SAY, "").length >= 3; }
+function telSuz(v){
+  var ham = (v || "");
+  var arti = ham.charAt(0) === "+";
+  var govde = ham.replace(/[^\d\s]/g, "").replace(/\s{2,}/g, " ");
+  return ((arti ? "+" : "") + govde).replace(/^\s+/, "").slice(0, 19);
+}
+function mesajSuz(v){
+  return (v || "").replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "").slice(0, 500);
+}
+function suzVeKoru(el, suzgec){
+  var eski = el.value, yeni = suzgec(eski);
+  if (yeni === eski) return;
+  var poz = el.selectionStart;
+  var onEk = suzgec(eski.slice(0, poz));
+  el.value = yeni;
+  var y = Math.min(onEk.length, yeni.length);
+  try { el.setSelectionRange(y, y); } catch (e) {}
+}
+function telNormal(v){
+  var d = (v || "").replace(/\D/g, "");
+  if (d.indexOf("0090") === 0) d = d.slice(4);
+  else if (d.indexOf("90") === 0 && d.length === 12) d = d.slice(2);
+  if (d.indexOf("0") === 0) d = d.slice(1);
+  return d;
+}
+function telGecerli(v){
+  var d = telNormal(v);
+  return d.length === 10 && d.charAt(0) === "5";
+}
+function telBicimle(v){
+  var d = telNormal(v);
+  if (!d) return "";
+  return ["0" + d.slice(0, 3), d.slice(3, 6), d.slice(6, 8), d.slice(8, 10)].filter(Boolean).join(" ").trim();
+}
+function hataIsaretle(alan, acik){
+  var kutu = alan.closest(".field") || alan.closest(".consent");
+  if (kutu) kutu.classList.toggle("has-error", !!acik);
+}
+function alanlariBagla(kapsam){
+  var fAd = kapsam.querySelector('[name="name"]');
+  var fTel = kapsam.querySelector('[name="phone"]');
+  var fMsg = kapsam.querySelector('[name="msg"]');
+  kapsam.querySelectorAll("input, select, textarea").forEach(function(el){
+    el.addEventListener("input", function(){ hataIsaretle(el, false); });
+    el.addEventListener("change", function(){ hataIsaretle(el, false); });
+  });
+  if (fAd){
+    fAd.addEventListener("input", function(){ suzVeKoru(fAd, adSuz); });
+    fAd.addEventListener("blur", function(){ fAd.value = adDuzelt(fAd.value); });
+  }
+  if (fTel){
+    fTel.addEventListener("input", function(){ suzVeKoru(fTel, telSuz); });
+    fTel.addEventListener("blur", function(){ var b = telBicimle(fTel.value); if (b) fTel.value = b; });
+  }
+  if (fMsg) fMsg.addEventListener("input", function(){ suzVeKoru(fMsg, mesajSuz); });
+}
+
+var modal = document.getElementById("modal");
+var sonOdak = null;
+function modalAc(urun){
+  sonOdak = document.activeElement;
+  modal.classList.add("is-open");
+  document.body.classList.add("no-scroll");
+  var sel = modal.querySelector("[data-type-select]");
+  if (urun){
+    var bulundu = Array.prototype.some.call(sel.options, function(o){ return o.value === urun; });
+    sel.value = bulundu ? urun : "";
+  }
+  setTimeout(function(){ modal.querySelector("#m-name").focus(); }, 60);
+}
+function modalKapat(){
+  modal.classList.remove("is-open");
+  document.body.classList.remove("no-scroll");
+  if (sonOdak) sonOdak.focus();
+}
+document.addEventListener("click", function(e){
+  var t = e.target.closest("[data-quote]");
+  if (t){ e.preventDefault(); modalAc(t.getAttribute("data-product")); return; }
+  if (e.target.closest("[data-close]")) modalKapat();
+});
+document.addEventListener("keydown", function(e){
+  if (e.key === "Escape" && modal.classList.contains("is-open")) modalKapat();
+  if (e.key === "Tab" && modal.classList.contains("is-open")){
+    var f = modal.querySelectorAll("button, [href], input, select, textarea");
+    var liste = Array.prototype.filter.call(f, function(el){ return el.offsetParent !== null; });
+    if (!liste.length) return;
+    var ilk = liste[0], son = liste[liste.length - 1];
+    if (e.shiftKey && document.activeElement === ilk){ e.preventDefault(); son.focus(); }
+    else if (!e.shiftKey && document.activeElement === son){ e.preventDefault(); ilk.focus(); }
+  }
+});
+
+document.querySelectorAll("[data-wa-form]").forEach(function(form){
+  alanlariBagla(form);
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var geriArama = form.getAttribute("data-mode") === "callback";
+    var ad = form.querySelector('[name="name"]');
+    var tel = form.querySelector('[name="phone"]');
+    var tur = form.querySelector('[name="type"]');
+    var msj = form.querySelector('[name="msg"]');
+    var kvkk = form.querySelector('[name="kvkk"]');
+    var ok = true, ilkHata = null;
+
+    ad.value = adDuzelt(ad.value);
+    if (msj) msj.value = mesajSuz(msj.value);
+    if (!adGecerli(ad.value)){ hataIsaretle(ad, true); ok = false; ilkHata = ilkHata || ad; }
+    if (!telGecerli(tel.value)){ hataIsaretle(tel, true); ok = false; ilkHata = ilkHata || tel; }
+    if (tur && !tur.value){ hataIsaretle(tur, true); ok = false; ilkHata = ilkHata || tur; }
+    if (!kvkk.checked){ hataIsaretle(kvkk, true); ok = false; ilkHata = ilkHata || kvkk; }
+    if (!ok){ if (ilkHata) ilkHata.focus(); return; }
+
+    if (geriArama){
+      try {
+        var arr = JSON.parse(localStorage.getItem("osa_callbacks") || "[]");
+        arr.push({ ad: ad.value, tel: "0" + telNormal(tel.value), t: new Date().toISOString() });
+        localStorage.setItem("osa_callbacks", JSON.stringify(arr));
+      } catch (err) {}
+      var kutu = form.querySelector("[data-ok]");
+      var btn = form.querySelector('button[type="submit"]');
+      if (kutu) kutu.classList.add("is-on");
+      btn.disabled = true;
+      setTimeout(function(){ form.reset(); btn.disabled = false; }, 1400);
+      return;
+    }
+
+    var satirlar = [
+      T("waSelam"), "",
+      T("waAd") + ad.value,
+      T("waTel") + "0" + telNormal(tel.value),
+      T("waTur") + urunEtiketi(tur.value)
+    ];
+    if (msj && msj.value.trim()) satirlar.push("", T("waNot") + msj.value.trim());
+    satirlar.push("", T("waKaynak"));
+
+    var url = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(satirlar.join("\n"));
+    var okKutu = form.querySelector("[data-ok]");
+    if (okKutu) okKutu.classList.add("is-on");
+    window.open(url, "_blank", "noopener");
+    setTimeout(function(){
+      if (okKutu) okKutu.classList.remove("is-on");
+      form.reset();
+      if (modal.classList.contains("is-open")) modalKapat();
+    }, 2600);
+  });
+});
+
+var calMonth = document.getElementById("calMonth");
+var calDays = document.getElementById("calDays");
+var calPrev = document.getElementById("calPrev");
+var calNext = document.getElementById("calNext");
+var slotList = document.getElementById("slotList");
+var slotEmpty = document.getElementById("slotEmpty");
+var slotDate = document.getElementById("slotDate");
+var apptForm = document.getElementById("apptForm");
+var apptSum = document.getElementById("apptSum");
+var apptFlow = document.getElementById("apptFlow");
+var apptDone = document.getElementById("apptDone");
+var apptDoneTxt = document.getElementById("apptDoneTxt");
+var apptReset = document.getElementById("apptReset");
+
+var bugun = new Date(); bugun.setHours(0, 0, 0, 0);
+var gosterilenAy = new Date(bugun.getFullYear(), bugun.getMonth(), 1);
+var sonGun = new Date(bugun.getTime() + RANDEVU.ileriGun * 86400000);
+var secili = { tarih: null, saat: null };
+
+function anahtar(d){
+  return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+}
+function dkCevir(hhmm){ var p = hhmm.split(":"); return (+p[0]) * 60 + (+p[1]); }
+function saatMetni(dk){ return String(Math.floor(dk / 60)).padStart(2, "0") + ":" + String(dk % 60).padStart(2, "0"); }
+function saatler(){
+  var out = [], b = dkCevir(RANDEVU.baslangic), s = dkCevir(RANDEVU.bitis);
+  for (var m = b; m <= s; m += RANDEVU.adimDk) out.push(saatMetni(m));
+  return out;
+}
+function gunAcikMi(d){
+  if (RANDEVU.kapaliGunler.indexOf(d.getDay()) !== -1) return false;
+  if (d < bugun) return false;
+  if (d > sonGun) return false;
+  return true;
+}
+function sahteDolu(gunAnahtari, saat){
+  var s = gunAnahtari + saat, h = 0;
+  for (var i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+  return Math.abs(h) % 100 < 32;
+}
+function kayitliRandevular(){
+  try { return JSON.parse(localStorage.getItem("osa_appts") || "[]"); } catch (e) { return []; }
+}
+function doluMu(gunAnahtari, saat){
+  if (sahteDolu(gunAnahtari, saat)) return true;
+  return kayitliRandevular().some(function(r){ return r.g === gunAnahtari && r.s === saat; });
+}
+function gecmisMi(d, saat){
+  var simdi = new Date();
+  var t = new Date(d); t.setHours(0, 0, 0, 0);
+  if (t.getTime() !== bugun.getTime()) return false;
+  return dkCevir(saat) <= (simdi.getHours() * 60 + simdi.getMinutes() + RANDEVU.enErkenSaat);
+}
+function gunMusaitMi(d){
+  if (!gunAcikMi(d)) return false;
+  var gk = anahtar(d);
+  return saatler().some(function(saat){ return !doluMu(gk, saat) && !gecmisMi(d, saat); });
+}
+function ilkMusaitGun(){
+  for (var i = 0; i <= RANDEVU.ileriGun; i++){
+    var d = new Date(bugun.getTime() + i * 86400000);
+    d.setHours(0, 0, 0, 0);
+    if (gunMusaitMi(d)) return d;
+  }
+  return null;
+}
+
+function takvimCiz(){
+  var yil = gosterilenAy.getFullYear(), ay = gosterilenAy.getMonth();
+  calMonth.textContent = AYLAR[DIL][ay] + " " + yil;
+  calDays.innerHTML = "";
+  var ilk = new Date(yil, ay, 1);
+  var kaydir = (ilk.getDay() + 6) % 7;
+  var gunSayisi = new Date(yil, ay + 1, 0).getDate();
+
+  for (var i = 0; i < kaydir; i++){
+    var bos = document.createElement("div");
+    bos.className = "cal__day is-empty";
+    calDays.appendChild(bos);
+  }
+  for (var g = 1; g <= gunSayisi; g++){
+    var d = new Date(yil, ay, g);
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "cal__day";
+    b.textContent = g;
+    b.setAttribute("aria-label", bicim(T("gunEtiket"), {
+      g: g, ay: AYLAR[DIL][ay], yil: yil, gun: GUNLER[DIL][d.getDay()]
+    }));
+    if (d.getTime() === bugun.getTime()) b.classList.add("is-today");
+    if (secili.tarih && anahtar(d) === anahtar(secili.tarih)) b.classList.add("is-sel");
+    if (!gunAcikMi(d)) b.disabled = true;
+    (function(gun){
+      b.addEventListener("click", function(){
+        secili.tarih = gun; secili.saat = null;
+        takvimCiz(); saatleriCiz();
+      });
+    })(d);
+    calDays.appendChild(b);
+  }
+  calPrev.disabled = new Date(yil, ay - 1, 1) < new Date(bugun.getFullYear(), bugun.getMonth(), 1);
+  calNext.disabled = new Date(yil, ay + 1, 1) > sonGun;
+}
+
+function saatleriCiz(){
+  slotList.innerHTML = "";
+  apptForm.style.display = "none";
+  if (!secili.tarih){
+    slotEmpty.style.display = "block";
+    slotEmpty.textContent = T("gunSec");
+    slotDate.textContent = "";
+    return;
+  }
+  var gk = anahtar(secili.tarih);
+  slotDate.textContent = DIL === "en"
+    ? GUNLER.en[secili.tarih.getDay()] + ", " + secili.tarih.getDate() + " " + AYLAR.en[secili.tarih.getMonth()]
+    : secili.tarih.getDate() + " " + AYLAR.tr[secili.tarih.getMonth()] + " " + GUNLER.tr[secili.tarih.getDay()];
+
+  var musait = 0;
+  saatler().forEach(function(saat){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "slot";
+    b.textContent = saat;
+    var kapali = doluMu(gk, saat) || gecmisMi(secili.tarih, saat);
+    if (kapali){ b.disabled = true; b.setAttribute("aria-label", bicim(T("doluEtiket"), { saat: saat })); }
+    else musait++;
+    if (secili.saat === saat) b.classList.add("is-sel");
+    b.addEventListener("click", function(){ secili.saat = saat; saatleriCiz(); });
+    slotList.appendChild(b);
+  });
+
+  if (!musait){
+    slotEmpty.style.display = "block";
+    slotEmpty.textContent = T("gunDolu");
+  } else {
+    slotEmpty.style.display = "none";
+  }
+
+  if (secili.saat){
+    apptForm.style.display = "block";
+    var tarihMetni = DIL === "en"
+      ? secili.tarih.getDate() + " " + AYLAR.en[secili.tarih.getMonth()] + " " + secili.tarih.getFullYear()
+      : secili.tarih.getDate() + " " + AYLAR.tr[secili.tarih.getMonth()] + " " + secili.tarih.getFullYear();
+    apptSum.innerHTML =
+      "<div><span>" + T("ozetTarih") + "</span><b>" + tarihMetni + "</b></div>" +
+      "<div><span>" + T("ozetGun") + "</span><b>" + GUNLER[DIL][secili.tarih.getDay()] + "</b></div>" +
+      "<div><span>" + T("ozetSaat") + "</span><b>" + secili.saat + "</b></div>";
+  }
+}
+
+if (calPrev){
+  calPrev.addEventListener("click", function(){
+    gosterilenAy = new Date(gosterilenAy.getFullYear(), gosterilenAy.getMonth() - 1, 1);
+    takvimCiz();
+  });
+  calNext.addEventListener("click", function(){
+    gosterilenAy = new Date(gosterilenAy.getFullYear(), gosterilenAy.getMonth() + 1, 1);
+    takvimCiz();
+  });
+  alanlariBagla(apptForm);
+
+  apptForm.addEventListener("submit", function(e){
+    e.preventDefault();
+    var ad = document.getElementById("a-name");
+    var tel = document.getElementById("a-tel");
+    var tur = document.getElementById("a-type");
+    var yer = document.getElementById("a-where");
+    var kvkk = apptForm.querySelector('[name="kvkk"]');
+    var ok = true, ilkHata = null;
+
+    ad.value = adDuzelt(ad.value);
+    if (!adGecerli(ad.value)){ hataIsaretle(ad, true); ok = false; ilkHata = ilkHata || ad; }
+    if (!telGecerli(tel.value)){ hataIsaretle(tel, true); ok = false; ilkHata = ilkHata || tel; }
+    if (!tur.value){ hataIsaretle(tur, true); ok = false; ilkHata = ilkHata || tur; }
+    if (!kvkk.checked){ hataIsaretle(kvkk, true); ok = false; ilkHata = ilkHata || kvkk; }
+    if (!ok){ if (ilkHata) ilkHata.focus(); return; }
+    if (!secili.tarih || !secili.saat) return;
+
+    var gk = anahtar(secili.tarih);
+    if (doluMu(gk, secili.saat) || gecmisMi(secili.tarih, secili.saat)){
+      secili.saat = null;
+      saatleriCiz();
+      alert(T("saatDoldu"));
+      return;
+    }
+
+    try {
+      var kayit = kayitliRandevular();
+      kayit.push({
+        g: gk, s: secili.saat, ad: ad.value, tel: "0" + telNormal(tel.value),
+        konu: tur.value, yer: yer.value, t: new Date().toISOString()
+      });
+      localStorage.setItem("osa_appts", JSON.stringify(kayit));
+    } catch (err) {}
+
+    var g = secili.tarih.getDate(), ayAd = AYLAR[DIL][secili.tarih.getMonth()];
+    var yilNo = secili.tarih.getFullYear(), gunAd = GUNLER[DIL][secili.tarih.getDay()];
+    var tamTarih = DIL === "en"
+      ? gunAd + ", " + g + " " + ayAd + " " + yilNo + " at " + secili.saat
+      : g + " " + ayAd + " " + yilNo + " " + gunAd + ", saat " + secili.saat;
+    apptDoneTxt.innerHTML =
+      "<b>" + tamTarih + "</b><br>" +
+      yer.options[yer.selectedIndex].textContent + " · " + tur.options[tur.selectedIndex].textContent + "<br>" +
+      bicim(T("randevuBilgi"), { tel: telBicimle(tel.value) });
+    apptFlow.style.display = "none";
+    apptDone.classList.add("is-on");
+  });
+
+  apptReset.addEventListener("click", function(){
+    secili = { tarih: ilkMusaitGun(), saat: null };
+    apptForm.reset();
+    apptForm.querySelectorAll(".has-error").forEach(function(x){ x.classList.remove("has-error"); });
+    apptDone.classList.remove("is-on");
+    apptFlow.style.display = "block";
+    takvimCiz(); saatleriCiz();
+  });
+}
+
+(function(){
+  var kutular = document.querySelectorAll(".card__media[data-src]");
+  if (!kutular.length) return;
+  function yukle(kutu){
+    if (kutu.dataset.yuklendi) return;
+    kutu.dataset.yuklendi = "1";
+    var img = new Image();
+    img.alt = "";
+    img.onload = function(){
+      kutu.appendChild(img);
+      var kart = kutu.closest(".card");
+      if (kart) kart.classList.add("has-img");
+    };
+    img.src = kutu.getAttribute("data-src");
+  }
+  if ("IntersectionObserver" in window){
+    var gz = new IntersectionObserver(function(kayitlarGZ, g){
+      kayitlarGZ.forEach(function(e){
+        if (!e.isIntersecting) return;
+        g.unobserve(e.target);
+        var kutu = e.target.querySelector(".card__media[data-src]");
+        if (kutu) yukle(kutu);
+      });
+    }, { rootMargin: "400px" });
+    kutular.forEach(function(k){ var kart = k.closest(".card"); if (kart) gz.observe(kart); });
+  } else {
+    kutular.forEach(yukle);
+  }
+})();
+
+var mapBtn = document.getElementById("loadMap");
+if (mapBtn){
+  mapBtn.addEventListener("click", function(){
+    var kutu = document.getElementById("map");
+    var f = document.createElement("iframe");
+    f.title = "Örnek Sigorta Ankara";
+    f.loading = "lazy";
+    f.referrerPolicy = "no-referrer-when-downgrade";
+    f.src = "https://www.google.com/maps?q=" +
+      encodeURIComponent("Örnek Mah. Örnek Cad. No: 1 Çankaya Ankara") + "&output=embed";
+    kutu.appendChild(f);
+    kutu.querySelector(".map__ph").style.display = "none";
+  });
+}
+
+var cookie = document.getElementById("cookie");
+var CK = "osa_cookie_pref";
+function tercihAl(){ try { return localStorage.getItem(CK); } catch (e) { return null; } }
+function tercihYaz(v){ try { localStorage.setItem(CK, v); } catch (e) {} }
+if (!tercihAl()) setTimeout(function(){ cookie.classList.add("is-on"); }, 1200);
+cookie.addEventListener("click", function(e){
+  var b = e.target.closest("[data-cookie]");
+  if (!b) return;
+  tercihYaz(b.getAttribute("data-cookie"));
+  cookie.classList.remove("is-on");
+});
+
+function dilDugmeleri(){
+  document.querySelectorAll(".lang button").forEach(function(b){
+    var kod = b.textContent.trim().toLowerCase();
+    b.classList.toggle("is-on", kod === DIL);
+    if (kod === DIL) b.setAttribute("aria-current", "true");
+    else b.removeAttribute("aria-current");
+  });
+}
+function dilDegistir(yeni){
+  if (yeni === DIL) return;
+  DIL = yeni;
+  try { localStorage.setItem("osa_lang", DIL); } catch (e) {}
+  metinleriUygula();
+  turleriDoldur();
+  temaYansit();
+  dilDugmeleri();
+  burger.setAttribute("aria-label",
+    burger.getAttribute("aria-expanded") === "true" ? T("menuKapat") : T("menuAc"));
+  if (calPrev){ takvimCiz(); saatleriCiz(); }
+}
+document.querySelectorAll(".lang button").forEach(function(b){
+  b.addEventListener("click", function(){ dilDegistir(b.textContent.trim().toLowerCase()); });
+});
+
+metinleriTopla();
+metinleriUygula();
+turleriDoldur();
+temaYansit();
+dilDugmeleri();
+
+if (calPrev){
+  var ilkGun = ilkMusaitGun();
+  if (ilkGun){
+    secili.tarih = ilkGun;
+    gosterilenAy = new Date(ilkGun.getFullYear(), ilkGun.getMonth(), 1);
+  }
+  takvimCiz();
+  saatleriCiz();
+}
+
+})();
+</script>
+
+</body>
+</html>
