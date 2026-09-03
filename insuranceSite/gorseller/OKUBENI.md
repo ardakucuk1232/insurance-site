@@ -3,7 +3,7 @@
 Fotoğraf koyacaksanız dosya adları aynen böyle olmalı:
 
 | Dosya | Nerede | En az boyut |
-
+|---|---|---|
 | `hero.jpg` | giriş ekranı arka planı | 1920 × 1080 |
 | `ofis.jpg` | "Farkımız" bölümü | 1000 × 1400 (dikey) |
 | `dis-cephe.jpg` | Hakkımızda, büyük kutu | 1000 × 1400 (dikey) |
