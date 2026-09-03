@@ -21,7 +21,6 @@ Teklif formu sunucuya bir şey göndermiyor. Kullanıcı bilgilerini bırakınca
 ```
 index.html                            site (HTML + CSS + JS, hepsi burada)
 kvkk.html, gizlilik.html, cerez.html  yasal metin taslakları
-araclar/gorsel-hazirla.html           görsel kırpma/sıkıştırma aracı
 wordpress/                            randevu ve geri arama eklentileri
 testler/                              Playwright testleri
 gorseller/                            boş, OKUBENI.md'de ne geleceği yazıyor
