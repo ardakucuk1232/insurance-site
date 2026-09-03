@@ -47,18 +47,8 @@ node testler/giris-testi.js
 
 **İngilizce çeviri** için ayrı bir HTML tutmak istemedim. Sayfa yüklenince metin düğümlerini gezip anlık görüntü alıyorum, sözlük Türkçe metnin kendisiyle anahtarlanıyor. Bu anlık görüntüyü takvim ve seçim kutuları oluşmadan önce almak gerekiyor, yoksa dinamik içerik de sözlüğe giriyor ve dil değişince bozuluyor.
 
-**Ad alanına `!!!....@@@` gibi şeyler girilebiliyordu.** Müşteri ekran görüntüsüyle bildirdi. Yazarken süzen bir filtre yazdım, imleç konumunu koruyor. İlk denemede `....` ve `+(` gibi kalıntılar geçiyordu; ikinci turda harf kalmadıysa alanı komple boşaltacak şekilde değiştirdim.
-
-Renkleri gözle seçmedim, kontrast oranlarını hesaplattım. Hepsi WCAG AA eşiğinin (4.5:1) üstünde.
-
-## Görsel aracı
-
-`araclar/gorsel-hazirla.html` tarayıcıda çalışan bir kırpma aracı. Fotoğrafları sürükleyip bırakıyorsun, her yer için doğru oranda kırpıyor (odak noktasını kaydırabiliyorsun), kaliteyi düşürüp hepsini tek ZIP olarak veriyor. Hiçbir dosya sunucuya gitmiyor.
-
-ZIP yazıcısını elle yazdım — CRC32 tablosu, sıkıştırmasız kayıtlar, yerel başlıklar, merkezî dizin, EOCD. Sırf kütüphane çekmemek için. Beklediğimden kolay çıktı, spesifikasyon gayet okunur.
-
-Bu aracı yazma sebebim, müşteriye "fotoğrafları squoosh.app'e sürükle, WebP seç, kaliteyi %75 yap" demenin pratikte işe yaramamasıydı.
+**Ad alanına `!!!....@@@` gibi şeyler girilebiliyordu.** Yazarken süzen bir filtre yazdım, imleç konumunu koruyor. İlk denemede `....` ve `+(` gibi kalıntılar geçiyordu; ikinci turda harf kalmadıysa alanı komple boşaltacak şekilde değiştirdim.
 
 ## Eksikler
 
-WordPress teması hiç yazılmadı, proje o aşamaya gelmeden bitti. Yorumlar bölümündeki metinler uydurma ve arayüzde "örnek" diye işaretli. Yasal metinler taslak, avukat görmedi. `gorseller/` klasörü boş — site fotoğrafsız da bozulmuyor, yer tutucular görünüyor.
+WordPress teması hiç yazılmadı, proje o aşamaya gelmeden bitti. Yorumlar bölümündeki metinler uydurma ve arayüzde "örnek" diye işaretli. Yasal metinler taslak.
