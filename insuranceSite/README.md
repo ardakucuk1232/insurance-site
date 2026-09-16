@@ -23,7 +23,6 @@ index.html                            site (HTML + CSS + JS, hepsi burada)
 kvkk.html, gizlilik.html, cerez.html  yasal metin taslakları
 wordpress/                            randevu ve geri arama eklentileri
 testler/                              Playwright testleri
-gorseller/                            boş, OKUBENI.md'de ne geleceği yazıyor
 ```
 
 ## Testler
